@@ -1,0 +1,274 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 6
+Title "portable fan"
+Date "2020-04-09"
+Rev "1"
+Comp "AnnopNod"
+Comment1 "portable fan"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4450 2500 700  550 
+U 5E75A7D2
+F0 "BMS" 50
+F1 "BMS.sch" 50
+F2 "VBattery" B R 5150 2800 50 
+F3 "GND" O L 4450 2800 50 
+F4 "VCC" O L 4450 2600 50 
+F5 "VSW" O R 5150 2700 50 
+F6 "VOut" O R 5150 2600 50 
+F7 "VSolar" I L 4450 2700 50 
+$EndSheet
+$Sheet
+S 4450 4400 750  500 
+U 5E75A7D5
+F0 "Control" 50
+F1 "Control.sch" 50
+F2 "Out_R" O R 5200 4500 50 
+F3 "Out_G" O R 5200 4600 50 
+F4 "Out_B" O R 5200 4700 50 
+F5 "Out_W" O R 5200 4800 50 
+F6 "GND" O L 4450 4800 50 
+F7 "VSW" I L 4450 4500 50 
+F8 "Out_Motor" O L 4450 4650 50 
+$EndSheet
+$Sheet
+S 7750 2500 700  500 
+U 5E75A7D8
+F0 "Amplifier" 50
+F1 "Amplifier.sch" 50
+F2 "VSW" I L 7750 2700 50 
+F3 "Audio_In" I R 8450 2600 50 
+F4 "GND" O R 8450 2700 50 
+F5 "VCC" I L 7750 2600 50 
+$EndSheet
+$Sheet
+S 6150 4400 650  500 
+U 5E8B2779
+F0 "Driver" 50
+F1 "Driver.sch" 50
+F2 "GND" O L 6150 4700 50 
+F3 "6V" I L 6150 4600 50 
+F4 "9V" I L 6150 4500 50 
+F5 "PWM_FAN" I R 6800 4500 50 
+F6 "PWM_R" I R 6800 4600 50 
+F7 "PWM_G" I R 6800 4700 50 
+F8 "PWM_B" I R 6800 4800 50 
+F9 "PWM_W" I L 6150 4800 50 
+$EndSheet
+$Sheet
+S 6100 2500 700  500 
+U 5E8B2520
+F0 "SMPS" 50
+F1 "SMPS.sch" 50
+F2 "VCC" I L 6100 2600 50 
+F3 "GND" O L 6100 2800 50 
+F4 "VSW" I L 6100 2700 50 
+F5 "V_Out" O R 6800 2600 50 
+F6 "V_USB" O R 6800 2700 50 
+$EndSheet
+$Comp
+L Connector:Jack-DC J1
+U 1 1 5E9702F3
+P 3500 2600
+F 0 "J1" H 3555 2925 50  0000 C CNN
+F 1 "12VDC" H 3555 2834 50  0000 C CNN
+F 2 "" H 3550 2560 50  0001 C CNN
+F 3 "~" H 3550 2560 50  0001 C CNN
+	1    3500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Solar_Cell SC1
+U 1 1 5E97037D
+P 3500 3250
+F 0 "SC1" H 3608 3346 50  0000 L CNN
+F 1 "15V" H 3608 3255 50  0000 L CNN
+F 2 "" V 3500 3310 50  0001 C CNN
+F 3 "~" V 3500 3310 50  0001 C CNN
+	1    3500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery BT1
+U 1 1 5E970413
+P 3500 3850
+F 0 "BT1" H 3608 3896 50  0000 L CNN
+F 1 "9V" H 3608 3805 50  0000 L CNN
+F 2 "" V 3500 3910 50  0001 C CNN
+F 3 "~" V 3500 3910 50  0001 C CNN
+	1    3500 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2500 4200 2500
+Wire Wire Line
+	4200 2500 4200 2600
+Wire Wire Line
+	4200 2600 4450 2600
+Wire Wire Line
+	3800 2700 3800 2800
+Wire Wire Line
+	3800 2800 4200 2800
+Wire Wire Line
+	4450 2700 3950 2700
+Wire Wire Line
+	3950 2700 3950 3050
+Wire Wire Line
+	3950 3050 3500 3050
+Wire Wire Line
+	3500 3350 4200 3350
+Wire Wire Line
+	4200 3350 4200 2800
+Connection ~ 4200 2800
+Wire Wire Line
+	4200 2800 4450 2800
+Wire Wire Line
+	5150 2800 5350 2800
+Wire Wire Line
+	5350 2800 5350 3650
+Wire Wire Line
+	5350 3650 3500 3650
+Wire Wire Line
+	4200 4050 4200 3350
+Wire Wire Line
+	3500 4050 4200 4050
+Connection ~ 4200 3350
+Wire Wire Line
+	5150 2700 5550 2700
+Wire Wire Line
+	6100 2800 5850 2800
+Wire Wire Line
+	5850 2800 5850 3350
+Wire Wire Line
+	5850 3350 4200 3350
+Wire Wire Line
+	5150 2600 5650 2600
+Wire Wire Line
+	5650 2600 5650 2250
+Wire Wire Line
+	5650 2250 7550 2250
+Wire Wire Line
+	7550 2250 7550 2600
+Wire Wire Line
+	7550 2600 7750 2600
+Connection ~ 5650 2600
+Wire Wire Line
+	5650 2600 6100 2600
+Wire Wire Line
+	7750 2700 7350 2700
+Wire Wire Line
+	7350 2700 7350 2350
+Wire Wire Line
+	7350 2350 5850 2350
+Wire Wire Line
+	5850 2350 5850 2700
+Connection ~ 5850 2700
+Wire Wire Line
+	5850 2700 6100 2700
+Wire Wire Line
+	8450 2700 8650 2700
+Wire Wire Line
+	8650 2700 8650 3350
+Wire Wire Line
+	8650 3350 8100 3350
+Connection ~ 5850 3350
+Wire Wire Line
+	6800 2600 7100 2600
+Wire Wire Line
+	7100 2600 7100 4150
+Wire Wire Line
+	7100 4150 5900 4150
+Wire Wire Line
+	5900 4150 5900 4600
+Wire Wire Line
+	5900 4600 6150 4600
+Wire Wire Line
+	7550 2600 7450 2600
+Wire Wire Line
+	7450 2600 7450 4000
+Wire Wire Line
+	7450 4000 6050 4000
+Wire Wire Line
+	6050 4000 6050 4500
+Wire Wire Line
+	6050 4500 6150 4500
+Connection ~ 7550 2600
+Wire Wire Line
+	6150 4700 5850 4700
+Wire Wire Line
+	5850 4700 5850 5450
+Wire Wire Line
+	5850 5450 8100 5450
+Wire Wire Line
+	8100 5450 8100 3350
+Connection ~ 8100 3350
+Wire Wire Line
+	8100 3350 5850 3350
+Wire Wire Line
+	4450 4800 4300 4800
+Wire Wire Line
+	4300 4800 4300 5450
+Wire Wire Line
+	4300 5450 5850 5450
+Connection ~ 5850 5450
+Wire Wire Line
+	4450 4500 4200 4500
+Wire Wire Line
+	4200 4500 4200 4150
+Wire Wire Line
+	4200 4150 5550 4150
+Wire Wire Line
+	5550 4150 5550 2700
+Connection ~ 5550 2700
+Wire Wire Line
+	5550 2700 5850 2700
+Wire Wire Line
+	4450 4650 3900 4650
+Wire Wire Line
+	3900 4650 3900 4250
+Wire Wire Line
+	3900 4250 7000 4250
+Wire Wire Line
+	7000 4250 7000 4500
+Wire Wire Line
+	7000 4500 6800 4500
+Wire Wire Line
+	5200 4500 5700 4500
+Wire Wire Line
+	5700 4500 5700 5050
+Wire Wire Line
+	5700 5050 7000 5050
+Wire Wire Line
+	7000 5050 7000 4600
+Wire Wire Line
+	7000 4600 6800 4600
+Wire Wire Line
+	5200 4600 5600 4600
+Wire Wire Line
+	5600 4600 5600 5150
+Wire Wire Line
+	5600 5150 6900 5150
+Wire Wire Line
+	6900 5150 6900 4700
+Wire Wire Line
+	6900 4700 6800 4700
+Wire Wire Line
+	5500 4700 5500 5250
+Wire Wire Line
+	5500 5250 6850 5250
+Wire Wire Line
+	6850 5250 6850 4800
+Wire Wire Line
+	6850 4800 6800 4800
+Wire Wire Line
+	5200 4700 5500 4700
+Wire Wire Line
+	6150 4800 5200 4800
+$EndSCHEMATC
