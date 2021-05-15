@@ -1767,17 +1767,6 @@ Wire Wire Line
 	5000 10000 4100 10000
 Connection ~ 4100 10000
 $Comp
-L Transistor_BJT:TIP127 Q12
-U 1 1 6039B5CD
-P 5800 8600
-F 0 "Q12" H 6007 8646 50  0000 L CNN
-F 1 "TIP127" H 6007 8555 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6000 8525 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/TIP120-D.PDF" H 5800 8600 50  0001 L CNN
-	1    5800 8600
-	1    0    0    1   
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 603B6A40
 P 5900 9000
@@ -1824,18 +1813,6 @@ F 3 "" H 5400 8600 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	5550 8600 5600 8600
-Connection ~ 5600 8600
-$Comp
-L Transistor_BJT:TIP127 Q15
-U 1 1 604920E3
-P 6900 8600
-F 0 "Q15" H 7107 8646 50  0000 L CNN
-F 1 "TIP127" H 7107 8555 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7100 8525 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/TIP120-D.PDF" H 6900 8600 50  0001 L CNN
-	1    6900 8600
-	1    0    0    1   
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 604920E9
@@ -1883,18 +1860,6 @@ F 3 "" H 6500 8600 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	6650 8600 6700 8600
-Connection ~ 6700 8600
-$Comp
-L Transistor_BJT:TIP127 Q20
-U 1 1 604A9224
-P 8050 8600
-F 0 "Q20" H 8257 8646 50  0000 L CNN
-F 1 "TIP127" H 8257 8555 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8250 8525 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/TIP120-D.PDF" H 8050 8600 50  0001 L CNN
-	1    8050 8600
-	1    0    0    1   
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 604A922A
@@ -1942,7 +1907,6 @@ F 3 "" H 7650 8600 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	7800 8600 7850 8600
-Connection ~ 7850 8600
 Wire Wire Line
 	5250 8600 5150 8600
 Wire Wire Line
@@ -2052,4 +2016,38 @@ Wire Wire Line
 Connection ~ 8150 9450
 Wire Wire Line
 	8150 9450 8150 9150
+$Comp
+L Device:Q_PMOS_GDS Q12
+U 1 1 60074FDD
+P 5800 8600
+F 0 "Q12" H 6004 8646 50  0000 L CNN
+F 1 "RD3P130" H 6004 8555 50  0000 L CNN
+F 2 "" H 6000 8700 50  0001 C CNN
+F 3 "~" H 5800 8600 50  0001 C CNN
+	1    5800 8600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 8600
+$Comp
+L Device:Q_PMOS_GDS Q15
+U 1 1 600934E2
+P 6900 8600
+F 0 "Q15" H 7104 8646 50  0000 L CNN
+F 1 "RD3P130" H 7104 8555 50  0000 L CNN
+F 2 "" H 7100 8700 50  0001 C CNN
+F 3 "~" H 6900 8600 50  0001 C CNN
+	1    6900 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GDS Q20
+U 1 1 600AFE56
+P 8050 8600
+F 0 "Q20" H 8254 8646 50  0000 L CNN
+F 1 "RD3P130" H 8254 8555 50  0000 L CNN
+F 2 "" H 8250 8700 50  0001 C CNN
+F 3 "~" H 8050 8600 50  0001 C CNN
+	1    8050 8600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

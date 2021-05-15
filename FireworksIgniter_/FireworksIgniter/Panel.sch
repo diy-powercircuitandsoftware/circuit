@@ -1,0 +1,291 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title "Control Panel"
+Date "2021-05-15"
+Rev "1"
+Comp "AnnopNod"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW1
+U 1 1 63E7D5C5
+P 5000 2000
+F 0 "SW1" H 5000 2285 50  0000 C CNN
+F 1 "12V_1A" H 5000 2194 50  0000 C CNN
+F 2 "" H 5000 2200 50  0001 C CNN
+F 3 "~" H 5000 2200 50  0001 C CNN
+	1    5000 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2000 4800 2000
+$Comp
+L Switch:SW_Push SW2
+U 1 1 63E7E62C
+P 5000 2400
+F 0 "SW2" H 5000 2685 50  0000 C CNN
+F 1 "12V_1A" H 5000 2594 50  0000 C CNN
+F 2 "" H 5000 2600 50  0001 C CNN
+F 3 "~" H 5000 2600 50  0001 C CNN
+	1    5000 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2400 4800 2400
+$Comp
+L Switch:SW_Push SW3
+U 1 1 63E7ED2B
+P 5000 2800
+F 0 "SW3" H 5000 3085 50  0000 C CNN
+F 1 "12V_1A" H 5000 2994 50  0000 C CNN
+F 2 "" H 5000 3000 50  0001 C CNN
+F 3 "~" H 5000 3000 50  0001 C CNN
+	1    5000 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2800 4800 2800
+$Comp
+L Switch:SW_Push SW4
+U 1 1 63E7ED33
+P 5000 3200
+F 0 "SW4" H 5000 3485 50  0000 C CNN
+F 1 "12V_1A" H 5000 3394 50  0000 C CNN
+F 2 "" H 5000 3400 50  0001 C CNN
+F 3 "~" H 5000 3400 50  0001 C CNN
+	1    5000 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3200 4800 3200
+$Comp
+L Switch:SW_Push SW5
+U 1 1 63E805AD
+P 5000 3600
+F 0 "SW5" H 5000 3885 50  0000 C CNN
+F 1 "12V_1A" H 5000 3794 50  0000 C CNN
+F 2 "" H 5000 3800 50  0001 C CNN
+F 3 "~" H 5000 3800 50  0001 C CNN
+	1    5000 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3600 4800 3600
+$Comp
+L Switch:SW_Push SW6
+U 1 1 63E805B5
+P 5000 4000
+F 0 "SW6" H 5000 4285 50  0000 C CNN
+F 1 "12V_1A" H 5000 4194 50  0000 C CNN
+F 2 "" H 5000 4200 50  0001 C CNN
+F 3 "~" H 5000 4200 50  0001 C CNN
+	1    5000 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4000 4800 4000
+$Comp
+L Switch:SW_Push SW7
+U 1 1 63E805BD
+P 5000 4400
+F 0 "SW7" H 5000 4685 50  0000 C CNN
+F 1 "12V_1A" H 5000 4594 50  0000 C CNN
+F 2 "" H 5000 4600 50  0001 C CNN
+F 3 "~" H 5000 4600 50  0001 C CNN
+	1    5000 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4400 4800 4400
+$Comp
+L Switch:SW_Push SW8
+U 1 1 63E805C5
+P 5000 4800
+F 0 "SW8" H 5000 5085 50  0000 C CNN
+F 1 "12V_1A" H 5000 4994 50  0000 C CNN
+F 2 "" H 5000 5000 50  0001 C CNN
+F 3 "~" H 5000 5000 50  0001 C CNN
+	1    5000 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4800 4800 4800
+$Comp
+L Switch:SW_Push SW9
+U 1 1 63E80F89
+P 5000 5200
+F 0 "SW9" H 5000 5485 50  0000 C CNN
+F 1 "12V_1A" H 5000 5394 50  0000 C CNN
+F 2 "" H 5000 5400 50  0001 C CNN
+F 3 "~" H 5000 5400 50  0001 C CNN
+	1    5000 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 5200 4800 5200
+$Comp
+L Switch:SW_Push SW10
+U 1 1 63E80F91
+P 5000 5600
+F 0 "SW10" H 5000 5885 50  0000 C CNN
+F 1 "12V_1A" H 5000 5794 50  0000 C CNN
+F 2 "" H 5000 5800 50  0001 C CNN
+F 3 "~" H 5000 5800 50  0001 C CNN
+	1    5000 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 5600 4800 5600
+$Comp
+L Switch:SW_Push SW11
+U 1 1 63E80F99
+P 5000 6000
+F 0 "SW11" H 5000 6285 50  0000 C CNN
+F 1 "12V_1A" H 5000 6194 50  0000 C CNN
+F 2 "" H 5000 6200 50  0001 C CNN
+F 3 "~" H 5000 6200 50  0001 C CNN
+	1    5000 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 6000 4800 6000
+$Comp
+L Switch:SW_Push SW12
+U 1 1 63E80FA1
+P 5000 6400
+F 0 "SW12" H 5000 6685 50  0000 C CNN
+F 1 "12V_1A" H 5000 6594 50  0000 C CNN
+F 2 "" H 5000 6600 50  0001 C CNN
+F 3 "~" H 5000 6600 50  0001 C CNN
+	1    5000 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 6400 4800 6400
+Wire Wire Line
+	5200 2000 5200 2400
+Wire Wire Line
+	5200 2400 5200 2800
+Connection ~ 5200 2400
+Wire Wire Line
+	5200 2800 5200 3200
+Connection ~ 5200 2800
+Wire Wire Line
+	5200 3200 5200 3600
+Connection ~ 5200 3200
+Wire Wire Line
+	5200 3600 5200 4000
+Connection ~ 5200 3600
+Wire Wire Line
+	5200 4000 5200 4400
+Connection ~ 5200 4000
+Wire Wire Line
+	5200 4800 5200 4400
+Connection ~ 5200 4400
+Wire Wire Line
+	5200 5200 5200 4800
+Connection ~ 5200 4800
+Wire Wire Line
+	5200 5600 5200 5200
+Connection ~ 5200 5200
+Wire Wire Line
+	5200 6000 5200 5600
+Connection ~ 5200 5600
+Wire Wire Line
+	5200 6400 5200 6000
+Connection ~ 5200 6000
+$Comp
+L Connector:6P6C J3
+U 1 1 63E83F22
+P 6500 4950
+F 0 "J3" V 6603 4620 50  0000 R CNN
+F 1 "6P6C" V 6512 4620 50  0000 R CNN
+F 2 "" V 6500 4975 50  0001 C CNN
+F 3 "~" V 6500 4975 50  0001 C CNN
+	1    6500 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 3700 5700 4000
+Wire Wire Line
+	5700 4000 5200 4000
+Wire Wire Line
+	5700 4000 6100 4000
+Connection ~ 5700 4000
+$Comp
+L Switch:SW_SPST SW13
+U 1 1 63ED68E5
+P 6300 3750
+F 0 "SW13" H 6300 3985 50  0000 C CNN
+F 1 "220V_0.1A" H 6300 3894 50  0000 C CNN
+F 2 "" H 6300 3750 50  0001 C CNN
+F 3 "~" H 6300 3750 50  0001 C CNN
+	1    6300 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3750 6700 3750
+Connection ~ 6700 3750
+Wire Wire Line
+	6700 3750 6700 3650
+Wire Wire Line
+	6100 3750 6100 4000
+Connection ~ 6100 4000
+Wire Wire Line
+	6100 4000 6600 4000
+Wire Wire Line
+	6200 4400 6200 4550
+Wire Wire Line
+	6300 4550 6300 4400
+Wire Wire Line
+	6400 4400 6400 4550
+Wire Wire Line
+	6500 4550 6500 4400
+Wire Wire Line
+	6600 4000 6600 4550
+Wire Wire Line
+	6700 3750 6700 4550
+Text HLabel 4600 2000 0    50   Input ~ 0
+S1
+Text HLabel 4600 2400 0    50   Input ~ 0
+S2
+Text HLabel 4600 2800 0    50   Input ~ 0
+S3
+Text HLabel 4600 3200 0    50   Input ~ 0
+S4
+Text HLabel 4600 3600 0    50   Input ~ 0
+S5
+Text HLabel 4600 4000 0    50   Input ~ 0
+S6
+Text HLabel 4600 4400 0    50   Input ~ 0
+S7
+Text HLabel 4600 4800 0    50   Input ~ 0
+S8
+Text HLabel 4600 5200 0    50   Input ~ 0
+S9
+Text HLabel 4600 5600 0    50   Input ~ 0
+S10
+Text HLabel 4600 6000 0    50   Input ~ 0
+S11
+Text HLabel 4600 6400 0    50   Input ~ 0
+S12
+Text HLabel 5700 3700 1    50   Output ~ 0
+GND
+Text HLabel 6700 3650 1    50   Input ~ 0
+VPWR
+Text HLabel 6200 4400 1    50   Input ~ 0
+EN4
+Text HLabel 6300 4400 1    50   Input ~ 0
+EN3
+Text HLabel 6400 4400 1    50   Input ~ 0
+EN2
+Text HLabel 6500 4400 1    50   Input ~ 0
+EN1
+$EndSCHEMATC

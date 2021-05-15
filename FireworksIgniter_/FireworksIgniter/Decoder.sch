@@ -1,0 +1,4204 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 4 5
+Title "Fireworks Igniter Decoder Selector "
+Date "2021-05-15"
+Rev "1"
+Comp "AnnopNod"
+Comment1 "Resistor Transistor logic"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 60E898DE
+P 3650 1650
+AR Path="/609D2134/60E898DE" Ref="R?"  Part="1" 
+AR Path="/609D2215/60E898DE" Ref="R?"  Part="1" 
+AR Path="/609D2250/60E898DE" Ref="R103"  Part="1" 
+AR Path="/63F303C2/60E898DE" Ref="R?"  Part="1" 
+F 0 "R103" V 3730 1650 50  0000 C CNN
+F 1 "100" V 3650 1650 50  0000 C CNN
+F 2 "" V 3580 1650 50  0000 C CNN
+F 3 "" H 3650 1650 50  0000 C CNN
+	1    3650 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3650 1450
+Wire Wire Line
+	3650 1500 3650 1450
+Wire Wire Line
+	3400 1450 3650 1450
+Wire Wire Line
+	3400 1150 3400 1100
+Wire Wire Line
+	3650 1400 3650 1450
+Wire Wire Line
+	3450 1100 3400 1100
+$Comp
+L Device:R R?
+U 1 1 60E898EA
+P 3400 1300
+AR Path="/609D2134/60E898EA" Ref="R?"  Part="1" 
+AR Path="/609D2215/60E898EA" Ref="R?"  Part="1" 
+AR Path="/609D2250/60E898EA" Ref="R102"  Part="1" 
+AR Path="/63F303C2/60E898EA" Ref="R?"  Part="1" 
+F 0 "R102" V 3480 1300 50  0000 C CNN
+F 1 "10K" V 3400 1300 50  0000 C CNN
+F 2 "" V 3330 1300 50  0000 C CNN
+F 3 "" H 3400 1300 50  0000 C CNN
+	1    3400 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 60E898F0
+P 3650 1200
+AR Path="/609D2134/60E898F0" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60E898F0" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60E898F0" Ref="Q57"  Part="1" 
+AR Path="/63F303C2/60E898F0" Ref="Q?"  Part="1" 
+F 0 "Q57" H 3850 1250 50  0000 L CNN
+F 1 "AO3407" H 3850 1150 50  0000 L CNN
+F 2 "" H 3850 1300 50  0000 C CNN
+F 3 "" H 3650 1200 50  0000 C CNN
+	1    3650 1200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60E898F6
+P 3550 2100
+AR Path="/609D2134/60E898F6" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60E898F6" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60E898F6" Ref="Q53"  Part="1" 
+AR Path="/63F303C2/60E898F6" Ref="Q?"  Part="1" 
+F 0 "Q53" H 3750 2175 50  0000 L CNN
+F 1 "PN2222" H 3750 2100 50  0000 L CNN
+F 2 "" H 3750 2025 50  0000 L CIN
+F 3 "" H 3550 2100 50  0000 L CNN
+	1    3550 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 1900 3650 1850
+$Comp
+L Device:R R?
+U 1 1 60E898FF
+P 3300 2250
+AR Path="/609D2134/60E898FF" Ref="R?"  Part="1" 
+AR Path="/609D2215/60E898FF" Ref="R?"  Part="1" 
+AR Path="/609D2250/60E898FF" Ref="R97"  Part="1" 
+AR Path="/63F303C2/60E898FF" Ref="R?"  Part="1" 
+F 0 "R97" V 3380 2250 50  0000 C CNN
+F 1 "10K" V 3300 2250 50  0000 C CNN
+F 2 "" V 3230 2250 50  0000 C CNN
+F 3 "" H 3300 2250 50  0000 C CNN
+	1    3300 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 2100 3350 2100
+$Comp
+L Diode:1N4148 D40
+U 1 1 60E89CD0
+P 3650 2500
+AR Path="/609D2250/60E89CD0" Ref="D40"  Part="1" 
+AR Path="/63F303C2/60E89CD0" Ref="D?"  Part="1" 
+F 0 "D40" V 3696 2420 50  0000 R CNN
+F 1 "1N4148" V 3605 2420 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3650 2325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3650 2500 50  0001 C CNN
+	1    3650 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3650 2300 3650 2350
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60E8B5A6
+P 3550 3150
+AR Path="/609D2134/60E8B5A6" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60E8B5A6" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60E8B5A6" Ref="Q54"  Part="1" 
+AR Path="/63F303C2/60E8B5A6" Ref="Q?"  Part="1" 
+F 0 "Q54" H 3750 3225 50  0000 L CNN
+F 1 "PN2222" H 3750 3150 50  0000 L CNN
+F 2 "" H 3750 3075 50  0000 L CIN
+F 3 "" H 3550 3150 50  0000 L CNN
+	1    3550 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3150 3350 3150
+$Comp
+L Diode:1N4148 D41
+U 1 1 60E8B5B3
+P 3650 3550
+AR Path="/609D2250/60E8B5B3" Ref="D41"  Part="1" 
+AR Path="/63F303C2/60E8B5B3" Ref="D?"  Part="1" 
+F 0 "D41" V 3696 3470 50  0000 R CNN
+F 1 "1N4148" V 3605 3470 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3650 3375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3650 3550 50  0001 C CNN
+	1    3650 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3650 3350 3650 3400
+Text HLabel 3700 1850 2    50   Output ~ 0
+P1
+Wire Wire Line
+	3700 1850 3650 1850
+Connection ~ 3650 1850
+Wire Wire Line
+	3650 1850 3650 1800
+Text HLabel 3850 1200 3    50   Output ~ 0
+D1
+Wire Wire Line
+	3850 1200 3850 1100
+$Comp
+L Device:R R?
+U 1 1 60E9719C
+P 3300 3300
+AR Path="/609D2134/60E9719C" Ref="R?"  Part="1" 
+AR Path="/609D2215/60E9719C" Ref="R?"  Part="1" 
+AR Path="/609D2250/60E9719C" Ref="R98"  Part="1" 
+AR Path="/63F303C2/60E9719C" Ref="R?"  Part="1" 
+F 0 "R98" V 3380 3300 50  0000 C CNN
+F 1 "10K" V 3300 3300 50  0000 C CNN
+F 2 "" V 3230 3300 50  0000 C CNN
+F 3 "" H 3300 3300 50  0000 C CNN
+	1    3300 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EA43A0
+P 4500 1650
+AR Path="/609D2134/60EA43A0" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EA43A0" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EA43A0" Ref="R111"  Part="1" 
+AR Path="/63F303C2/60EA43A0" Ref="R?"  Part="1" 
+F 0 "R111" V 4580 1650 50  0000 C CNN
+F 1 "100" V 4500 1650 50  0000 C CNN
+F 2 "" V 4430 1650 50  0000 C CNN
+F 3 "" H 4500 1650 50  0000 C CNN
+	1    4500 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 1450
+Wire Wire Line
+	4500 1500 4500 1450
+Wire Wire Line
+	4250 1450 4500 1450
+Wire Wire Line
+	4250 1150 4250 1100
+Wire Wire Line
+	4500 1400 4500 1450
+Wire Wire Line
+	4300 1100 4250 1100
+$Comp
+L Device:R R?
+U 1 1 60EA43AC
+P 4250 1300
+AR Path="/609D2134/60EA43AC" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EA43AC" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EA43AC" Ref="R109"  Part="1" 
+AR Path="/63F303C2/60EA43AC" Ref="R?"  Part="1" 
+F 0 "R109" V 4330 1300 50  0000 C CNN
+F 1 "10K" V 4250 1300 50  0000 C CNN
+F 2 "" V 4180 1300 50  0000 C CNN
+F 3 "" H 4250 1300 50  0000 C CNN
+	1    4250 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EA43B8
+P 4400 2100
+AR Path="/609D2134/60EA43B8" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EA43B8" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EA43B8" Ref="Q59"  Part="1" 
+AR Path="/63F303C2/60EA43B8" Ref="Q?"  Part="1" 
+F 0 "Q59" H 4600 2175 50  0000 L CNN
+F 1 "PN2222" H 4600 2100 50  0000 L CNN
+F 2 "" H 4600 2025 50  0000 L CIN
+F 3 "" H 4400 2100 50  0000 L CNN
+	1    4400 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1900 4500 1850
+$Comp
+L Device:R R?
+U 1 1 60EA43BF
+P 4150 2250
+AR Path="/609D2134/60EA43BF" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EA43BF" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EA43BF" Ref="R105"  Part="1" 
+AR Path="/63F303C2/60EA43BF" Ref="R?"  Part="1" 
+F 0 "R105" V 4230 2250 50  0000 C CNN
+F 1 "10K" V 4150 2250 50  0000 C CNN
+F 2 "" V 4080 2250 50  0000 C CNN
+F 3 "" H 4150 2250 50  0000 C CNN
+	1    4150 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 2100 4200 2100
+$Comp
+L Diode:1N4148 D43
+U 1 1 60EA43C6
+P 4500 2500
+AR Path="/609D2250/60EA43C6" Ref="D43"  Part="1" 
+AR Path="/63F303C2/60EA43C6" Ref="D?"  Part="1" 
+F 0 "D43" V 4546 2420 50  0000 R CNN
+F 1 "1N4148" V 4455 2420 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4500 2325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4500 2500 50  0001 C CNN
+	1    4500 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 2300 4500 2350
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EA43CD
+P 4400 3150
+AR Path="/609D2134/60EA43CD" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EA43CD" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EA43CD" Ref="Q60"  Part="1" 
+AR Path="/63F303C2/60EA43CD" Ref="Q?"  Part="1" 
+F 0 "Q60" H 4600 3225 50  0000 L CNN
+F 1 "PN2222" H 4600 3150 50  0000 L CNN
+F 2 "" H 4600 3075 50  0000 L CIN
+F 3 "" H 4400 3150 50  0000 L CNN
+	1    4400 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3150 4200 3150
+$Comp
+L Diode:1N4148 D44
+U 1 1 60EA43D4
+P 4500 3550
+AR Path="/609D2250/60EA43D4" Ref="D44"  Part="1" 
+AR Path="/63F303C2/60EA43D4" Ref="D?"  Part="1" 
+F 0 "D44" V 4546 3470 50  0000 R CNN
+F 1 "1N4148" V 4455 3470 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4500 3375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4500 3550 50  0001 C CNN
+	1    4500 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 3350 4500 3400
+Text HLabel 4550 1850 2    50   Output ~ 0
+P2
+Wire Wire Line
+	4550 1850 4500 1850
+Connection ~ 4500 1850
+Wire Wire Line
+	4500 1850 4500 1800
+Wire Wire Line
+	4700 1200 4700 1100
+$Comp
+L Device:R R?
+U 1 1 60EA43F9
+P 4150 3300
+AR Path="/609D2134/60EA43F9" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EA43F9" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EA43F9" Ref="R106"  Part="1" 
+AR Path="/63F303C2/60EA43F9" Ref="R?"  Part="1" 
+F 0 "R106" V 4230 3300 50  0000 C CNN
+F 1 "10K" V 4150 3300 50  0000 C CNN
+F 2 "" V 4080 3300 50  0000 C CNN
+F 3 "" H 4150 3300 50  0000 C CNN
+	1    4150 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EB8386
+P 5350 1650
+AR Path="/609D2134/60EB8386" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EB8386" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EB8386" Ref="R120"  Part="1" 
+AR Path="/63F303C2/60EB8386" Ref="R?"  Part="1" 
+F 0 "R120" V 5430 1650 50  0000 C CNN
+F 1 "100" V 5350 1650 50  0000 C CNN
+F 2 "" V 5280 1650 50  0000 C CNN
+F 3 "" H 5350 1650 50  0000 C CNN
+	1    5350 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5350 1450
+Wire Wire Line
+	5350 1500 5350 1450
+Wire Wire Line
+	5100 1450 5350 1450
+Wire Wire Line
+	5100 1150 5100 1100
+Wire Wire Line
+	5350 1400 5350 1450
+Wire Wire Line
+	5150 1100 5100 1100
+$Comp
+L Device:R R?
+U 1 1 60EB8392
+P 5100 1300
+AR Path="/609D2134/60EB8392" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EB8392" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EB8392" Ref="R119"  Part="1" 
+AR Path="/63F303C2/60EB8392" Ref="R?"  Part="1" 
+F 0 "R119" V 5180 1300 50  0000 C CNN
+F 1 "10K" V 5100 1300 50  0000 C CNN
+F 2 "" V 5030 1300 50  0000 C CNN
+F 3 "" H 5100 1300 50  0000 C CNN
+	1    5100 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 60EB8398
+P 5350 1200
+AR Path="/609D2134/60EB8398" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EB8398" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EB8398" Ref="Q70"  Part="1" 
+AR Path="/63F303C2/60EB8398" Ref="Q?"  Part="1" 
+F 0 "Q70" H 5550 1250 50  0000 L CNN
+F 1 "AO3407" H 5550 1150 50  0000 L CNN
+F 2 "" H 5550 1300 50  0000 C CNN
+F 3 "" H 5350 1200 50  0000 C CNN
+	1    5350 1200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EB839E
+P 5250 2100
+AR Path="/609D2134/60EB839E" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EB839E" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EB839E" Ref="Q65"  Part="1" 
+AR Path="/63F303C2/60EB839E" Ref="Q?"  Part="1" 
+F 0 "Q65" H 5450 2175 50  0000 L CNN
+F 1 "PN2222" H 5450 2100 50  0000 L CNN
+F 2 "" H 5450 2025 50  0000 L CIN
+F 3 "" H 5250 2100 50  0000 L CNN
+	1    5250 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1900 5350 1850
+$Comp
+L Device:R R?
+U 1 1 60EB83A5
+P 5000 2250
+AR Path="/609D2134/60EB83A5" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EB83A5" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EB83A5" Ref="R114"  Part="1" 
+AR Path="/63F303C2/60EB83A5" Ref="R?"  Part="1" 
+F 0 "R114" V 5080 2250 50  0000 C CNN
+F 1 "10K" V 5000 2250 50  0000 C CNN
+F 2 "" V 4930 2250 50  0000 C CNN
+F 3 "" H 5000 2250 50  0000 C CNN
+	1    5000 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 2100 5050 2100
+$Comp
+L Diode:1N4148 D46
+U 1 1 60EB83AC
+P 5350 2500
+AR Path="/609D2250/60EB83AC" Ref="D46"  Part="1" 
+AR Path="/63F303C2/60EB83AC" Ref="D?"  Part="1" 
+F 0 "D46" V 5396 2420 50  0000 R CNN
+F 1 "1N4148" V 5305 2420 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5350 2325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5350 2500 50  0001 C CNN
+	1    5350 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 2300 5350 2350
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EB83B3
+P 5250 3150
+AR Path="/609D2134/60EB83B3" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EB83B3" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EB83B3" Ref="Q66"  Part="1" 
+AR Path="/63F303C2/60EB83B3" Ref="Q?"  Part="1" 
+F 0 "Q66" H 5450 3225 50  0000 L CNN
+F 1 "PN2222" H 5450 3150 50  0000 L CNN
+F 2 "" H 5450 3075 50  0000 L CIN
+F 3 "" H 5250 3150 50  0000 L CNN
+	1    5250 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3150 5050 3150
+$Comp
+L Diode:1N4148 D47
+U 1 1 60EB83BA
+P 5350 3550
+AR Path="/609D2250/60EB83BA" Ref="D47"  Part="1" 
+AR Path="/63F303C2/60EB83BA" Ref="D?"  Part="1" 
+F 0 "D47" V 5396 3470 50  0000 R CNN
+F 1 "1N4148" V 5305 3470 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5350 3375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5350 3550 50  0001 C CNN
+	1    5350 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 3350 5350 3400
+Text HLabel 5400 1850 2    50   Output ~ 0
+P3
+Wire Wire Line
+	5400 1850 5350 1850
+Connection ~ 5350 1850
+Wire Wire Line
+	5350 1850 5350 1800
+Text HLabel 5550 1200 3    50   Output ~ 0
+D3
+Wire Wire Line
+	5550 1200 5550 1100
+$Comp
+L Device:R R?
+U 1 1 60EB83DF
+P 5000 3300
+AR Path="/609D2134/60EB83DF" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EB83DF" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EB83DF" Ref="R115"  Part="1" 
+AR Path="/63F303C2/60EB83DF" Ref="R?"  Part="1" 
+F 0 "R115" V 5080 3300 50  0000 C CNN
+F 1 "10K" V 5000 3300 50  0000 C CNN
+F 2 "" V 4930 3300 50  0000 C CNN
+F 3 "" H 5000 3300 50  0000 C CNN
+	1    5000 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EB83F2
+P 6200 1650
+AR Path="/609D2134/60EB83F2" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EB83F2" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EB83F2" Ref="R128"  Part="1" 
+AR Path="/63F303C2/60EB83F2" Ref="R?"  Part="1" 
+F 0 "R128" V 6280 1650 50  0000 C CNN
+F 1 "100" V 6200 1650 50  0000 C CNN
+F 2 "" V 6130 1650 50  0000 C CNN
+F 3 "" H 6200 1650 50  0000 C CNN
+	1    6200 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 1450
+Wire Wire Line
+	6200 1500 6200 1450
+Wire Wire Line
+	5950 1450 6200 1450
+Wire Wire Line
+	5950 1150 5950 1100
+Wire Wire Line
+	6200 1400 6200 1450
+Wire Wire Line
+	6000 1100 5950 1100
+$Comp
+L Device:R R?
+U 1 1 60EB83FE
+P 5950 1300
+AR Path="/609D2134/60EB83FE" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EB83FE" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EB83FE" Ref="R127"  Part="1" 
+AR Path="/63F303C2/60EB83FE" Ref="R?"  Part="1" 
+F 0 "R127" V 6030 1300 50  0000 C CNN
+F 1 "10K" V 5950 1300 50  0000 C CNN
+F 2 "" V 5880 1300 50  0000 C CNN
+F 3 "" H 5950 1300 50  0000 C CNN
+	1    5950 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EB840A
+P 6100 2100
+AR Path="/609D2134/60EB840A" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EB840A" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EB840A" Ref="Q72"  Part="1" 
+AR Path="/63F303C2/60EB840A" Ref="Q?"  Part="1" 
+F 0 "Q72" H 6300 2175 50  0000 L CNN
+F 1 "PN2222" H 6300 2100 50  0000 L CNN
+F 2 "" H 6300 2025 50  0000 L CIN
+F 3 "" H 6100 2100 50  0000 L CNN
+	1    6100 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1900 6200 1850
+$Comp
+L Device:R R?
+U 1 1 60EB8411
+P 5850 2250
+AR Path="/609D2134/60EB8411" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EB8411" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EB8411" Ref="R123"  Part="1" 
+AR Path="/63F303C2/60EB8411" Ref="R?"  Part="1" 
+F 0 "R123" V 5930 2250 50  0000 C CNN
+F 1 "10K" V 5850 2250 50  0000 C CNN
+F 2 "" V 5780 2250 50  0000 C CNN
+F 3 "" H 5850 2250 50  0000 C CNN
+	1    5850 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5850 2100 5900 2100
+$Comp
+L Diode:1N4148 D49
+U 1 1 60EB8418
+P 6200 2500
+AR Path="/609D2250/60EB8418" Ref="D49"  Part="1" 
+AR Path="/63F303C2/60EB8418" Ref="D?"  Part="1" 
+F 0 "D49" V 6246 2420 50  0000 R CNN
+F 1 "1N4148" V 6155 2420 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6200 2325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6200 2500 50  0001 C CNN
+	1    6200 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 2300 6200 2350
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EB841F
+P 6100 3150
+AR Path="/609D2134/60EB841F" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EB841F" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EB841F" Ref="Q73"  Part="1" 
+AR Path="/63F303C2/60EB841F" Ref="Q?"  Part="1" 
+F 0 "Q73" H 6300 3225 50  0000 L CNN
+F 1 "PN2222" H 6300 3150 50  0000 L CNN
+F 2 "" H 6300 3075 50  0000 L CIN
+F 3 "" H 6100 3150 50  0000 L CNN
+	1    6100 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3150 5900 3150
+$Comp
+L Diode:1N4148 D50
+U 1 1 60EB8426
+P 6200 3550
+AR Path="/609D2250/60EB8426" Ref="D50"  Part="1" 
+AR Path="/63F303C2/60EB8426" Ref="D?"  Part="1" 
+F 0 "D50" V 6246 3470 50  0000 R CNN
+F 1 "1N4148" V 6155 3470 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6200 3375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6200 3550 50  0001 C CNN
+	1    6200 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 3350 6200 3400
+Text HLabel 6250 1850 2    50   Output ~ 0
+P4
+Wire Wire Line
+	6250 1850 6200 1850
+Connection ~ 6200 1850
+Wire Wire Line
+	6200 1850 6200 1800
+Wire Wire Line
+	6400 1200 6400 1100
+$Comp
+L Device:R R?
+U 1 1 60EB844B
+P 5850 3300
+AR Path="/609D2134/60EB844B" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EB844B" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EB844B" Ref="R124"  Part="1" 
+AR Path="/63F303C2/60EB844B" Ref="R?"  Part="1" 
+F 0 "R124" V 5930 3300 50  0000 C CNN
+F 1 "10K" V 5850 3300 50  0000 C CNN
+F 2 "" V 5780 3300 50  0000 C CNN
+F 3 "" H 5850 3300 50  0000 C CNN
+	1    5850 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EC1024
+P 7050 1650
+AR Path="/609D2134/60EC1024" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EC1024" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EC1024" Ref="R137"  Part="1" 
+AR Path="/63F303C2/60EC1024" Ref="R?"  Part="1" 
+F 0 "R137" V 7130 1650 50  0000 C CNN
+F 1 "100" V 7050 1650 50  0000 C CNN
+F 2 "" V 6980 1650 50  0000 C CNN
+F 3 "" H 7050 1650 50  0000 C CNN
+	1    7050 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 7050 1450
+Wire Wire Line
+	7050 1500 7050 1450
+Wire Wire Line
+	6800 1450 7050 1450
+Wire Wire Line
+	6800 1150 6800 1100
+Wire Wire Line
+	7050 1400 7050 1450
+Wire Wire Line
+	6850 1100 6800 1100
+$Comp
+L Device:R R?
+U 1 1 60EC1030
+P 6800 1300
+AR Path="/609D2134/60EC1030" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EC1030" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EC1030" Ref="R135"  Part="1" 
+AR Path="/63F303C2/60EC1030" Ref="R?"  Part="1" 
+F 0 "R135" V 6880 1300 50  0000 C CNN
+F 1 "10K" V 6800 1300 50  0000 C CNN
+F 2 "" V 6730 1300 50  0000 C CNN
+F 3 "" H 6800 1300 50  0000 C CNN
+	1    6800 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 60EC1036
+P 7050 1200
+AR Path="/609D2134/60EC1036" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EC1036" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EC1036" Ref="Q82"  Part="1" 
+AR Path="/63F303C2/60EC1036" Ref="Q?"  Part="1" 
+F 0 "Q82" H 7250 1250 50  0000 L CNN
+F 1 "AO3407" H 7250 1150 50  0000 L CNN
+F 2 "" H 7250 1300 50  0000 C CNN
+F 3 "" H 7050 1200 50  0000 C CNN
+	1    7050 1200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EC103C
+P 6950 2100
+AR Path="/609D2134/60EC103C" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EC103C" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EC103C" Ref="Q78"  Part="1" 
+AR Path="/63F303C2/60EC103C" Ref="Q?"  Part="1" 
+F 0 "Q78" H 7150 2175 50  0000 L CNN
+F 1 "PN2222" H 7150 2100 50  0000 L CNN
+F 2 "" H 7150 2025 50  0000 L CIN
+F 3 "" H 6950 2100 50  0000 L CNN
+	1    6950 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 1900 7050 1850
+$Comp
+L Device:R R?
+U 1 1 60EC1043
+P 6700 2250
+AR Path="/609D2134/60EC1043" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EC1043" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EC1043" Ref="R131"  Part="1" 
+AR Path="/63F303C2/60EC1043" Ref="R?"  Part="1" 
+F 0 "R131" V 6780 2250 50  0000 C CNN
+F 1 "10K" V 6700 2250 50  0000 C CNN
+F 2 "" V 6630 2250 50  0000 C CNN
+F 3 "" H 6700 2250 50  0000 C CNN
+	1    6700 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 2100 6750 2100
+$Comp
+L Diode:1N4148 D52
+U 1 1 60EC104A
+P 7050 2500
+AR Path="/609D2250/60EC104A" Ref="D52"  Part="1" 
+AR Path="/63F303C2/60EC104A" Ref="D?"  Part="1" 
+F 0 "D52" V 7096 2420 50  0000 R CNN
+F 1 "1N4148" V 7005 2420 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7050 2325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7050 2500 50  0001 C CNN
+	1    7050 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 2300 7050 2350
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EC1051
+P 6950 3150
+AR Path="/609D2134/60EC1051" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EC1051" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EC1051" Ref="Q79"  Part="1" 
+AR Path="/63F303C2/60EC1051" Ref="Q?"  Part="1" 
+F 0 "Q79" H 7150 3225 50  0000 L CNN
+F 1 "PN2222" H 7150 3150 50  0000 L CNN
+F 2 "" H 7150 3075 50  0000 L CIN
+F 3 "" H 6950 3150 50  0000 L CNN
+	1    6950 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3150 6750 3150
+$Comp
+L Diode:1N4148 D53
+U 1 1 60EC1058
+P 7050 3550
+AR Path="/609D2250/60EC1058" Ref="D53"  Part="1" 
+AR Path="/63F303C2/60EC1058" Ref="D?"  Part="1" 
+F 0 "D53" V 7096 3470 50  0000 R CNN
+F 1 "1N4148" V 7005 3470 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7050 3375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7050 3550 50  0001 C CNN
+	1    7050 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 3350 7050 3400
+Text HLabel 7100 1850 2    50   Output ~ 0
+P5
+Wire Wire Line
+	7100 1850 7050 1850
+Connection ~ 7050 1850
+Wire Wire Line
+	7050 1850 7050 1800
+Text HLabel 7250 1200 3    50   Output ~ 0
+D5
+Wire Wire Line
+	7250 1200 7250 1100
+$Comp
+L Device:R R?
+U 1 1 60EC107D
+P 6700 3300
+AR Path="/609D2134/60EC107D" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EC107D" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EC107D" Ref="R132"  Part="1" 
+AR Path="/63F303C2/60EC107D" Ref="R?"  Part="1" 
+F 0 "R132" V 6780 3300 50  0000 C CNN
+F 1 "10K" V 6700 3300 50  0000 C CNN
+F 2 "" V 6630 3300 50  0000 C CNN
+F 3 "" H 6700 3300 50  0000 C CNN
+	1    6700 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EC1090
+P 7900 1650
+AR Path="/609D2134/60EC1090" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EC1090" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EC1090" Ref="R145"  Part="1" 
+AR Path="/63F303C2/60EC1090" Ref="R?"  Part="1" 
+F 0 "R145" V 7980 1650 50  0000 C CNN
+F 1 "100" V 7900 1650 50  0000 C CNN
+F 2 "" V 7830 1650 50  0000 C CNN
+F 3 "" H 7900 1650 50  0000 C CNN
+	1    7900 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 7900 1450
+Wire Wire Line
+	7900 1500 7900 1450
+Wire Wire Line
+	7650 1450 7900 1450
+Wire Wire Line
+	7650 1150 7650 1100
+Wire Wire Line
+	7900 1400 7900 1450
+Wire Wire Line
+	7700 1100 7650 1100
+$Comp
+L Device:R R?
+U 1 1 60EC109C
+P 7650 1300
+AR Path="/609D2134/60EC109C" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EC109C" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EC109C" Ref="R144"  Part="1" 
+AR Path="/63F303C2/60EC109C" Ref="R?"  Part="1" 
+F 0 "R144" V 7730 1300 50  0000 C CNN
+F 1 "10K" V 7650 1300 50  0000 C CNN
+F 2 "" V 7580 1300 50  0000 C CNN
+F 3 "" H 7650 1300 50  0000 C CNN
+	1    7650 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 60EC10A2
+P 7900 1200
+AR Path="/609D2134/60EC10A2" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EC10A2" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EC10A2" Ref="Q89"  Part="1" 
+AR Path="/63F303C2/60EC10A2" Ref="Q?"  Part="1" 
+F 0 "Q89" H 8100 1250 50  0000 L CNN
+F 1 "AO3407" H 8100 1150 50  0000 L CNN
+F 2 "" H 8100 1300 50  0000 C CNN
+F 3 "" H 7900 1200 50  0000 C CNN
+	1    7900 1200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EC10A8
+P 7800 2100
+AR Path="/609D2134/60EC10A8" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EC10A8" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EC10A8" Ref="Q84"  Part="1" 
+AR Path="/63F303C2/60EC10A8" Ref="Q?"  Part="1" 
+F 0 "Q84" H 8000 2175 50  0000 L CNN
+F 1 "PN2222" H 8000 2100 50  0000 L CNN
+F 2 "" H 8000 2025 50  0000 L CIN
+F 3 "" H 7800 2100 50  0000 L CNN
+	1    7800 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 1900 7900 1850
+$Comp
+L Device:R R?
+U 1 1 60EC10AF
+P 7550 2250
+AR Path="/609D2134/60EC10AF" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EC10AF" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EC10AF" Ref="R140"  Part="1" 
+AR Path="/63F303C2/60EC10AF" Ref="R?"  Part="1" 
+F 0 "R140" V 7630 2250 50  0000 C CNN
+F 1 "10K" V 7550 2250 50  0000 C CNN
+F 2 "" V 7480 2250 50  0000 C CNN
+F 3 "" H 7550 2250 50  0000 C CNN
+	1    7550 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7550 2100 7600 2100
+$Comp
+L Diode:1N4148 D55
+U 1 1 60EC10B6
+P 7900 2500
+AR Path="/609D2250/60EC10B6" Ref="D55"  Part="1" 
+AR Path="/63F303C2/60EC10B6" Ref="D?"  Part="1" 
+F 0 "D55" V 7946 2420 50  0000 R CNN
+F 1 "1N4148" V 7855 2420 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7900 2325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7900 2500 50  0001 C CNN
+	1    7900 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 2300 7900 2350
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EC10BD
+P 7800 3150
+AR Path="/609D2134/60EC10BD" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EC10BD" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EC10BD" Ref="Q85"  Part="1" 
+AR Path="/63F303C2/60EC10BD" Ref="Q?"  Part="1" 
+F 0 "Q85" H 8000 3225 50  0000 L CNN
+F 1 "PN2222" H 8000 3150 50  0000 L CNN
+F 2 "" H 8000 3075 50  0000 L CIN
+F 3 "" H 7800 3150 50  0000 L CNN
+	1    7800 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3150 7600 3150
+$Comp
+L Diode:1N4148 D56
+U 1 1 60EC10C4
+P 7900 3550
+AR Path="/609D2250/60EC10C4" Ref="D56"  Part="1" 
+AR Path="/63F303C2/60EC10C4" Ref="D?"  Part="1" 
+F 0 "D56" V 7946 3470 50  0000 R CNN
+F 1 "1N4148" V 7855 3470 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7900 3375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7900 3550 50  0001 C CNN
+	1    7900 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 3350 7900 3400
+Text HLabel 7950 1850 2    50   Output ~ 0
+P6
+Wire Wire Line
+	7950 1850 7900 1850
+Connection ~ 7900 1850
+Wire Wire Line
+	7900 1850 7900 1800
+Text HLabel 8100 1200 3    50   Output ~ 0
+D6
+Wire Wire Line
+	8100 1200 8100 1100
+$Comp
+L Device:R R?
+U 1 1 60EC10E9
+P 7550 3300
+AR Path="/609D2134/60EC10E9" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EC10E9" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EC10E9" Ref="R141"  Part="1" 
+AR Path="/63F303C2/60EC10E9" Ref="R?"  Part="1" 
+F 0 "R141" V 7630 3300 50  0000 C CNN
+F 1 "10K" V 7550 3300 50  0000 C CNN
+F 2 "" V 7480 3300 50  0000 C CNN
+F 3 "" H 7550 3300 50  0000 C CNN
+	1    7550 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F04FAC
+P 8750 1650
+AR Path="/609D2134/60F04FAC" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F04FAC" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F04FAC" Ref="R154"  Part="1" 
+AR Path="/63F303C2/60F04FAC" Ref="R?"  Part="1" 
+F 0 "R154" V 8830 1650 50  0000 C CNN
+F 1 "100" V 8750 1650 50  0000 C CNN
+F 2 "" V 8680 1650 50  0000 C CNN
+F 3 "" H 8750 1650 50  0000 C CNN
+	1    8750 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 1450
+Wire Wire Line
+	8750 1500 8750 1450
+Wire Wire Line
+	8500 1450 8750 1450
+Wire Wire Line
+	8500 1150 8500 1100
+Wire Wire Line
+	8750 1400 8750 1450
+Wire Wire Line
+	8550 1100 8500 1100
+$Comp
+L Device:R R?
+U 1 1 60F04FB8
+P 8500 1300
+AR Path="/609D2134/60F04FB8" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F04FB8" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F04FB8" Ref="R152"  Part="1" 
+AR Path="/63F303C2/60F04FB8" Ref="R?"  Part="1" 
+F 0 "R152" V 8580 1300 50  0000 C CNN
+F 1 "10K" V 8500 1300 50  0000 C CNN
+F 2 "" V 8430 1300 50  0000 C CNN
+F 3 "" H 8500 1300 50  0000 C CNN
+	1    8500 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 60F04FBE
+P 8750 1200
+AR Path="/609D2134/60F04FBE" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F04FBE" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F04FBE" Ref="Q95"  Part="1" 
+AR Path="/63F303C2/60F04FBE" Ref="Q?"  Part="1" 
+F 0 "Q95" H 8950 1250 50  0000 L CNN
+F 1 "AO3407" H 8950 1150 50  0000 L CNN
+F 2 "" H 8950 1300 50  0000 C CNN
+F 3 "" H 8750 1200 50  0000 C CNN
+	1    8750 1200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F04FC4
+P 8650 2100
+AR Path="/609D2134/60F04FC4" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F04FC4" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F04FC4" Ref="Q90"  Part="1" 
+AR Path="/63F303C2/60F04FC4" Ref="Q?"  Part="1" 
+F 0 "Q90" H 8850 2175 50  0000 L CNN
+F 1 "PN2222" H 8850 2100 50  0000 L CNN
+F 2 "" H 8850 2025 50  0000 L CIN
+F 3 "" H 8650 2100 50  0000 L CNN
+	1    8650 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 1900 8750 1850
+$Comp
+L Device:R R?
+U 1 1 60F04FCB
+P 8400 2250
+AR Path="/609D2134/60F04FCB" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F04FCB" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F04FCB" Ref="R147"  Part="1" 
+AR Path="/63F303C2/60F04FCB" Ref="R?"  Part="1" 
+F 0 "R147" V 8480 2250 50  0000 C CNN
+F 1 "10K" V 8400 2250 50  0000 C CNN
+F 2 "" V 8330 2250 50  0000 C CNN
+F 3 "" H 8400 2250 50  0000 C CNN
+	1    8400 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8400 2100 8450 2100
+$Comp
+L Diode:1N4148 D58
+U 1 1 60F04FD2
+P 8750 2500
+AR Path="/609D2250/60F04FD2" Ref="D58"  Part="1" 
+AR Path="/63F303C2/60F04FD2" Ref="D?"  Part="1" 
+F 0 "D58" V 8796 2420 50  0000 R CNN
+F 1 "1N4148" V 8705 2420 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8750 2325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8750 2500 50  0001 C CNN
+	1    8750 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8750 2300 8750 2350
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F04FD9
+P 8650 3150
+AR Path="/609D2134/60F04FD9" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F04FD9" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F04FD9" Ref="Q91"  Part="1" 
+AR Path="/63F303C2/60F04FD9" Ref="Q?"  Part="1" 
+F 0 "Q91" H 8850 3225 50  0000 L CNN
+F 1 "PN2222" H 8850 3150 50  0000 L CNN
+F 2 "" H 8850 3075 50  0000 L CIN
+F 3 "" H 8650 3150 50  0000 L CNN
+	1    8650 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 3150 8450 3150
+$Comp
+L Diode:1N4148 D59
+U 1 1 60F04FE0
+P 8750 3550
+AR Path="/609D2250/60F04FE0" Ref="D59"  Part="1" 
+AR Path="/63F303C2/60F04FE0" Ref="D?"  Part="1" 
+F 0 "D59" V 8796 3470 50  0000 R CNN
+F 1 "1N4148" V 8705 3470 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8750 3375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8750 3550 50  0001 C CNN
+	1    8750 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8750 3350 8750 3400
+Text HLabel 8800 1850 2    50   Output ~ 0
+P7
+Wire Wire Line
+	8800 1850 8750 1850
+Connection ~ 8750 1850
+Wire Wire Line
+	8750 1850 8750 1800
+Text HLabel 8950 1200 3    50   Output ~ 0
+D7
+Wire Wire Line
+	8950 1200 8950 1100
+$Comp
+L Device:R R?
+U 1 1 60F05005
+P 8400 3300
+AR Path="/609D2134/60F05005" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F05005" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F05005" Ref="R148"  Part="1" 
+AR Path="/63F303C2/60F05005" Ref="R?"  Part="1" 
+F 0 "R148" V 8480 3300 50  0000 C CNN
+F 1 "10K" V 8400 3300 50  0000 C CNN
+F 2 "" V 8330 3300 50  0000 C CNN
+F 3 "" H 8400 3300 50  0000 C CNN
+	1    8400 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F05018
+P 9600 1650
+AR Path="/609D2134/60F05018" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F05018" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F05018" Ref="R163"  Part="1" 
+AR Path="/63F303C2/60F05018" Ref="R?"  Part="1" 
+F 0 "R163" V 9680 1650 50  0000 C CNN
+F 1 "100" V 9600 1650 50  0000 C CNN
+F 2 "" V 9530 1650 50  0000 C CNN
+F 3 "" H 9600 1650 50  0000 C CNN
+	1    9600 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 9600 1450
+Wire Wire Line
+	9600 1500 9600 1450
+Wire Wire Line
+	9350 1450 9600 1450
+Wire Wire Line
+	9350 1150 9350 1100
+Wire Wire Line
+	9600 1400 9600 1450
+Wire Wire Line
+	9400 1100 9350 1100
+$Comp
+L Device:R R?
+U 1 1 60F05024
+P 9350 1300
+AR Path="/609D2134/60F05024" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F05024" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F05024" Ref="R161"  Part="1" 
+AR Path="/63F303C2/60F05024" Ref="R?"  Part="1" 
+F 0 "R161" V 9430 1300 50  0000 C CNN
+F 1 "10K" V 9350 1300 50  0000 C CNN
+F 2 "" V 9280 1300 50  0000 C CNN
+F 3 "" H 9350 1300 50  0000 C CNN
+	1    9350 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 60F0502A
+P 9600 1200
+AR Path="/609D2134/60F0502A" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F0502A" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F0502A" Ref="Q101"  Part="1" 
+AR Path="/63F303C2/60F0502A" Ref="Q?"  Part="1" 
+F 0 "Q101" H 9800 1250 50  0000 L CNN
+F 1 "AO3407" H 9800 1150 50  0000 L CNN
+F 2 "" H 9800 1300 50  0000 C CNN
+F 3 "" H 9600 1200 50  0000 C CNN
+	1    9600 1200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F05030
+P 9500 2100
+AR Path="/609D2134/60F05030" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F05030" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F05030" Ref="Q97"  Part="1" 
+AR Path="/63F303C2/60F05030" Ref="Q?"  Part="1" 
+F 0 "Q97" H 9700 2175 50  0000 L CNN
+F 1 "PN2222" H 9700 2100 50  0000 L CNN
+F 2 "" H 9700 2025 50  0000 L CIN
+F 3 "" H 9500 2100 50  0000 L CNN
+	1    9500 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 1900 9600 1850
+$Comp
+L Device:R R?
+U 1 1 60F05037
+P 9250 2250
+AR Path="/609D2134/60F05037" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F05037" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F05037" Ref="R157"  Part="1" 
+AR Path="/63F303C2/60F05037" Ref="R?"  Part="1" 
+F 0 "R157" V 9330 2250 50  0000 C CNN
+F 1 "10K" V 9250 2250 50  0000 C CNN
+F 2 "" V 9180 2250 50  0000 C CNN
+F 3 "" H 9250 2250 50  0000 C CNN
+	1    9250 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9250 2100 9300 2100
+$Comp
+L Diode:1N4148 D61
+U 1 1 60F0503E
+P 9600 2500
+AR Path="/609D2250/60F0503E" Ref="D61"  Part="1" 
+AR Path="/63F303C2/60F0503E" Ref="D?"  Part="1" 
+F 0 "D61" V 9646 2420 50  0000 R CNN
+F 1 "1N4148" V 9555 2420 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9600 2325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9600 2500 50  0001 C CNN
+	1    9600 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9600 2300 9600 2350
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F05045
+P 9500 3150
+AR Path="/609D2134/60F05045" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F05045" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F05045" Ref="Q98"  Part="1" 
+AR Path="/63F303C2/60F05045" Ref="Q?"  Part="1" 
+F 0 "Q98" H 9700 3225 50  0000 L CNN
+F 1 "PN2222" H 9700 3150 50  0000 L CNN
+F 2 "" H 9700 3075 50  0000 L CIN
+F 3 "" H 9500 3150 50  0000 L CNN
+	1    9500 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 3150 9300 3150
+$Comp
+L Diode:1N4148 D62
+U 1 1 60F0504C
+P 9600 3550
+AR Path="/609D2250/60F0504C" Ref="D62"  Part="1" 
+AR Path="/63F303C2/60F0504C" Ref="D?"  Part="1" 
+F 0 "D62" V 9646 3470 50  0000 R CNN
+F 1 "1N4148" V 9555 3470 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9600 3375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9600 3550 50  0001 C CNN
+	1    9600 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9600 3350 9600 3400
+Text HLabel 9650 1850 2    50   Output ~ 0
+P8
+Wire Wire Line
+	9650 1850 9600 1850
+Connection ~ 9600 1850
+Wire Wire Line
+	9600 1850 9600 1800
+Text HLabel 9800 1200 3    50   Output ~ 0
+D8
+Wire Wire Line
+	9800 1200 9800 1100
+$Comp
+L Device:R R?
+U 1 1 60F05071
+P 9250 3300
+AR Path="/609D2134/60F05071" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F05071" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F05071" Ref="R158"  Part="1" 
+AR Path="/63F303C2/60F05071" Ref="R?"  Part="1" 
+F 0 "R158" V 9330 3300 50  0000 C CNN
+F 1 "10K" V 9250 3300 50  0000 C CNN
+F 2 "" V 9180 3300 50  0000 C CNN
+F 3 "" H 9250 3300 50  0000 C CNN
+	1    9250 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F05084
+P 10450 1650
+AR Path="/609D2134/60F05084" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F05084" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F05084" Ref="R170"  Part="1" 
+AR Path="/63F303C2/60F05084" Ref="R?"  Part="1" 
+F 0 "R170" V 10530 1650 50  0000 C CNN
+F 1 "100" V 10450 1650 50  0000 C CNN
+F 2 "" V 10380 1650 50  0000 C CNN
+F 3 "" H 10450 1650 50  0000 C CNN
+	1    10450 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 10450 1450
+Wire Wire Line
+	10450 1500 10450 1450
+Wire Wire Line
+	10200 1450 10450 1450
+Wire Wire Line
+	10200 1150 10200 1100
+Wire Wire Line
+	10450 1400 10450 1450
+Wire Wire Line
+	10250 1100 10200 1100
+$Comp
+L Device:R R?
+U 1 1 60F05090
+P 10200 1300
+AR Path="/609D2134/60F05090" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F05090" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F05090" Ref="R169"  Part="1" 
+AR Path="/63F303C2/60F05090" Ref="R?"  Part="1" 
+F 0 "R169" V 10280 1300 50  0000 C CNN
+F 1 "10K" V 10200 1300 50  0000 C CNN
+F 2 "" V 10130 1300 50  0000 C CNN
+F 3 "" H 10200 1300 50  0000 C CNN
+	1    10200 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 60F05096
+P 10450 1200
+AR Path="/609D2134/60F05096" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F05096" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F05096" Ref="Q107"  Part="1" 
+AR Path="/63F303C2/60F05096" Ref="Q?"  Part="1" 
+F 0 "Q107" H 10650 1250 50  0000 L CNN
+F 1 "AO3407" H 10650 1150 50  0000 L CNN
+F 2 "" H 10650 1300 50  0000 C CNN
+F 3 "" H 10450 1200 50  0000 C CNN
+	1    10450 1200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F0509C
+P 10350 2100
+AR Path="/609D2134/60F0509C" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F0509C" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F0509C" Ref="Q103"  Part="1" 
+AR Path="/63F303C2/60F0509C" Ref="Q?"  Part="1" 
+F 0 "Q103" H 10550 2175 50  0000 L CNN
+F 1 "PN2222" H 10550 2100 50  0000 L CNN
+F 2 "" H 10550 2025 50  0000 L CIN
+F 3 "" H 10350 2100 50  0000 L CNN
+	1    10350 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 1900 10450 1850
+$Comp
+L Device:R R?
+U 1 1 60F050A3
+P 10100 2250
+AR Path="/609D2134/60F050A3" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F050A3" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F050A3" Ref="R165"  Part="1" 
+AR Path="/63F303C2/60F050A3" Ref="R?"  Part="1" 
+F 0 "R165" V 10180 2250 50  0000 C CNN
+F 1 "10K" V 10100 2250 50  0000 C CNN
+F 2 "" V 10030 2250 50  0000 C CNN
+F 3 "" H 10100 2250 50  0000 C CNN
+	1    10100 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10100 2100 10150 2100
+$Comp
+L Diode:1N4148 D64
+U 1 1 60F050AA
+P 10450 2500
+AR Path="/609D2250/60F050AA" Ref="D64"  Part="1" 
+AR Path="/63F303C2/60F050AA" Ref="D?"  Part="1" 
+F 0 "D64" V 10496 2420 50  0000 R CNN
+F 1 "1N4148" V 10405 2420 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10450 2325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10450 2500 50  0001 C CNN
+	1    10450 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10450 2300 10450 2350
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F050B1
+P 10350 3150
+AR Path="/609D2134/60F050B1" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F050B1" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F050B1" Ref="Q104"  Part="1" 
+AR Path="/63F303C2/60F050B1" Ref="Q?"  Part="1" 
+F 0 "Q104" H 10550 3225 50  0000 L CNN
+F 1 "PN2222" H 10550 3150 50  0000 L CNN
+F 2 "" H 10550 3075 50  0000 L CIN
+F 3 "" H 10350 3150 50  0000 L CNN
+	1    10350 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 3150 10150 3150
+$Comp
+L Diode:1N4148 D65
+U 1 1 60F050B8
+P 10450 3550
+AR Path="/609D2250/60F050B8" Ref="D65"  Part="1" 
+AR Path="/63F303C2/60F050B8" Ref="D?"  Part="1" 
+F 0 "D65" V 10496 3470 50  0000 R CNN
+F 1 "1N4148" V 10405 3470 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10450 3375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10450 3550 50  0001 C CNN
+	1    10450 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10450 3350 10450 3400
+Text HLabel 10500 1850 2    50   Output ~ 0
+P9
+Wire Wire Line
+	10500 1850 10450 1850
+Connection ~ 10450 1850
+Wire Wire Line
+	10450 1850 10450 1800
+Text HLabel 10650 1200 3    50   Output ~ 0
+D9
+Wire Wire Line
+	10650 1200 10650 1100
+$Comp
+L Device:R R?
+U 1 1 60F050DD
+P 10100 3300
+AR Path="/609D2134/60F050DD" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F050DD" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F050DD" Ref="R166"  Part="1" 
+AR Path="/63F303C2/60F050DD" Ref="R?"  Part="1" 
+F 0 "R166" V 10180 3300 50  0000 C CNN
+F 1 "10K" V 10100 3300 50  0000 C CNN
+F 2 "" V 10030 3300 50  0000 C CNN
+F 3 "" H 10100 3300 50  0000 C CNN
+	1    10100 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F050F0
+P 11300 1650
+AR Path="/609D2134/60F050F0" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F050F0" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F050F0" Ref="R176"  Part="1" 
+AR Path="/63F303C2/60F050F0" Ref="R?"  Part="1" 
+F 0 "R176" V 11380 1650 50  0000 C CNN
+F 1 "100" V 11300 1650 50  0000 C CNN
+F 2 "" V 11230 1650 50  0000 C CNN
+F 3 "" H 11300 1650 50  0000 C CNN
+	1    11300 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 11300 1450
+Wire Wire Line
+	11300 1500 11300 1450
+Wire Wire Line
+	11050 1450 11300 1450
+Wire Wire Line
+	11050 1150 11050 1100
+Wire Wire Line
+	11300 1400 11300 1450
+Wire Wire Line
+	11100 1100 11050 1100
+$Comp
+L Device:R R?
+U 1 1 60F050FC
+P 11050 1300
+AR Path="/609D2134/60F050FC" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F050FC" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F050FC" Ref="R175"  Part="1" 
+AR Path="/63F303C2/60F050FC" Ref="R?"  Part="1" 
+F 0 "R175" V 11130 1300 50  0000 C CNN
+F 1 "10K" V 11050 1300 50  0000 C CNN
+F 2 "" V 10980 1300 50  0000 C CNN
+F 3 "" H 11050 1300 50  0000 C CNN
+	1    11050 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 60F05102
+P 11300 1200
+AR Path="/609D2134/60F05102" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F05102" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F05102" Ref="Q112"  Part="1" 
+AR Path="/63F303C2/60F05102" Ref="Q?"  Part="1" 
+F 0 "Q112" H 11500 1250 50  0000 L CNN
+F 1 "AO3407" H 11500 1150 50  0000 L CNN
+F 2 "" H 11500 1300 50  0000 C CNN
+F 3 "" H 11300 1200 50  0000 C CNN
+	1    11300 1200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F05108
+P 11200 2100
+AR Path="/609D2134/60F05108" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F05108" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F05108" Ref="Q108"  Part="1" 
+AR Path="/63F303C2/60F05108" Ref="Q?"  Part="1" 
+F 0 "Q108" H 11400 2175 50  0000 L CNN
+F 1 "PN2222" H 11400 2100 50  0000 L CNN
+F 2 "" H 11400 2025 50  0000 L CIN
+F 3 "" H 11200 2100 50  0000 L CNN
+	1    11200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11300 1900 11300 1850
+$Comp
+L Device:R R?
+U 1 1 60F0510F
+P 10950 2250
+AR Path="/609D2134/60F0510F" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F0510F" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F0510F" Ref="R171"  Part="1" 
+AR Path="/63F303C2/60F0510F" Ref="R?"  Part="1" 
+F 0 "R171" V 11030 2250 50  0000 C CNN
+F 1 "10K" V 10950 2250 50  0000 C CNN
+F 2 "" V 10880 2250 50  0000 C CNN
+F 3 "" H 10950 2250 50  0000 C CNN
+	1    10950 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10950 2100 11000 2100
+$Comp
+L Diode:1N4148 D67
+U 1 1 60F05116
+P 11300 2500
+AR Path="/609D2250/60F05116" Ref="D67"  Part="1" 
+AR Path="/63F303C2/60F05116" Ref="D?"  Part="1" 
+F 0 "D67" V 11346 2420 50  0000 R CNN
+F 1 "1N4148" V 11255 2420 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11300 2325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11300 2500 50  0001 C CNN
+	1    11300 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 2300 11300 2350
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F0511D
+P 11200 3150
+AR Path="/609D2134/60F0511D" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F0511D" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F0511D" Ref="Q109"  Part="1" 
+AR Path="/63F303C2/60F0511D" Ref="Q?"  Part="1" 
+F 0 "Q109" H 11400 3225 50  0000 L CNN
+F 1 "PN2222" H 11400 3150 50  0000 L CNN
+F 2 "" H 11400 3075 50  0000 L CIN
+F 3 "" H 11200 3150 50  0000 L CNN
+	1    11200 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10950 3150 11000 3150
+$Comp
+L Diode:1N4148 D68
+U 1 1 60F05124
+P 11300 3550
+AR Path="/609D2250/60F05124" Ref="D68"  Part="1" 
+AR Path="/63F303C2/60F05124" Ref="D?"  Part="1" 
+F 0 "D68" V 11346 3470 50  0000 R CNN
+F 1 "1N4148" V 11255 3470 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11300 3375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11300 3550 50  0001 C CNN
+	1    11300 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 3350 11300 3400
+Text HLabel 11350 1850 2    50   Output ~ 0
+P10
+Wire Wire Line
+	11350 1850 11300 1850
+Connection ~ 11300 1850
+Wire Wire Line
+	11300 1850 11300 1800
+Text HLabel 11500 1200 3    50   Output ~ 0
+D10
+Wire Wire Line
+	11500 1200 11500 1100
+$Comp
+L Device:R R?
+U 1 1 60F05149
+P 10950 3300
+AR Path="/609D2134/60F05149" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F05149" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F05149" Ref="R172"  Part="1" 
+AR Path="/63F303C2/60F05149" Ref="R?"  Part="1" 
+F 0 "R172" V 11030 3300 50  0000 C CNN
+F 1 "10K" V 10950 3300 50  0000 C CNN
+F 2 "" V 10880 3300 50  0000 C CNN
+F 3 "" H 10950 3300 50  0000 C CNN
+	1    10950 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F0515C
+P 12150 1650
+AR Path="/609D2134/60F0515C" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F0515C" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F0515C" Ref="R182"  Part="1" 
+AR Path="/63F303C2/60F0515C" Ref="R?"  Part="1" 
+F 0 "R182" V 12230 1650 50  0000 C CNN
+F 1 "100" V 12150 1650 50  0000 C CNN
+F 2 "" V 12080 1650 50  0000 C CNN
+F 3 "" H 12150 1650 50  0000 C CNN
+	1    12150 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 12150 1450
+Wire Wire Line
+	12150 1500 12150 1450
+Wire Wire Line
+	11900 1450 12150 1450
+Wire Wire Line
+	11900 1150 11900 1100
+Wire Wire Line
+	12150 1400 12150 1450
+Wire Wire Line
+	11950 1100 11900 1100
+$Comp
+L Device:R R?
+U 1 1 60F05168
+P 11900 1300
+AR Path="/609D2134/60F05168" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F05168" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F05168" Ref="R181"  Part="1" 
+AR Path="/63F303C2/60F05168" Ref="R?"  Part="1" 
+F 0 "R181" V 11980 1300 50  0000 C CNN
+F 1 "10K" V 11900 1300 50  0000 C CNN
+F 2 "" V 11830 1300 50  0000 C CNN
+F 3 "" H 11900 1300 50  0000 C CNN
+	1    11900 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 60F0516E
+P 12150 1200
+AR Path="/609D2134/60F0516E" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F0516E" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F0516E" Ref="Q117"  Part="1" 
+AR Path="/63F303C2/60F0516E" Ref="Q?"  Part="1" 
+F 0 "Q117" H 12350 1250 50  0000 L CNN
+F 1 "AO3407" H 12350 1150 50  0000 L CNN
+F 2 "" H 12350 1300 50  0000 C CNN
+F 3 "" H 12150 1200 50  0000 C CNN
+	1    12150 1200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F05174
+P 12050 2100
+AR Path="/609D2134/60F05174" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F05174" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F05174" Ref="Q113"  Part="1" 
+AR Path="/63F303C2/60F05174" Ref="Q?"  Part="1" 
+F 0 "Q113" H 12250 2175 50  0000 L CNN
+F 1 "PN2222" H 12250 2100 50  0000 L CNN
+F 2 "" H 12250 2025 50  0000 L CIN
+F 3 "" H 12050 2100 50  0000 L CNN
+	1    12050 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 1900 12150 1850
+$Comp
+L Device:R R?
+U 1 1 60F0517B
+P 11800 2250
+AR Path="/609D2134/60F0517B" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F0517B" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F0517B" Ref="R177"  Part="1" 
+AR Path="/63F303C2/60F0517B" Ref="R?"  Part="1" 
+F 0 "R177" V 11880 2250 50  0000 C CNN
+F 1 "10K" V 11800 2250 50  0000 C CNN
+F 2 "" V 11730 2250 50  0000 C CNN
+F 3 "" H 11800 2250 50  0000 C CNN
+	1    11800 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11800 2100 11850 2100
+$Comp
+L Diode:1N4148 D70
+U 1 1 60F05182
+P 12150 2500
+AR Path="/609D2250/60F05182" Ref="D70"  Part="1" 
+AR Path="/63F303C2/60F05182" Ref="D?"  Part="1" 
+F 0 "D70" V 12196 2420 50  0000 R CNN
+F 1 "1N4148" V 12105 2420 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12150 2325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12150 2500 50  0001 C CNN
+	1    12150 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12150 2300 12150 2350
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F05189
+P 12050 3150
+AR Path="/609D2134/60F05189" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F05189" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F05189" Ref="Q114"  Part="1" 
+AR Path="/63F303C2/60F05189" Ref="Q?"  Part="1" 
+F 0 "Q114" H 12250 3225 50  0000 L CNN
+F 1 "PN2222" H 12250 3150 50  0000 L CNN
+F 2 "" H 12250 3075 50  0000 L CIN
+F 3 "" H 12050 3150 50  0000 L CNN
+	1    12050 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11800 3150 11850 3150
+$Comp
+L Diode:1N4148 D71
+U 1 1 60F05190
+P 12150 3550
+AR Path="/609D2250/60F05190" Ref="D71"  Part="1" 
+AR Path="/63F303C2/60F05190" Ref="D?"  Part="1" 
+F 0 "D71" V 12196 3470 50  0000 R CNN
+F 1 "1N4148" V 12105 3470 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12150 3375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12150 3550 50  0001 C CNN
+	1    12150 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12150 3350 12150 3400
+Text HLabel 12200 1850 2    50   Output ~ 0
+P11
+Wire Wire Line
+	12200 1850 12150 1850
+Connection ~ 12150 1850
+Wire Wire Line
+	12150 1850 12150 1800
+Text HLabel 12350 1200 3    50   Output ~ 0
+D11
+Wire Wire Line
+	12350 1200 12350 1100
+$Comp
+L Device:R R?
+U 1 1 60F051B5
+P 11800 3300
+AR Path="/609D2134/60F051B5" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F051B5" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F051B5" Ref="R178"  Part="1" 
+AR Path="/63F303C2/60F051B5" Ref="R?"  Part="1" 
+F 0 "R178" V 11880 3300 50  0000 C CNN
+F 1 "10K" V 11800 3300 50  0000 C CNN
+F 2 "" V 11730 3300 50  0000 C CNN
+F 3 "" H 11800 3300 50  0000 C CNN
+	1    11800 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F051C8
+P 13000 1650
+AR Path="/609D2134/60F051C8" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F051C8" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F051C8" Ref="R188"  Part="1" 
+AR Path="/63F303C2/60F051C8" Ref="R?"  Part="1" 
+F 0 "R188" V 13080 1650 50  0000 C CNN
+F 1 "100" V 13000 1650 50  0000 C CNN
+F 2 "" V 12930 1650 50  0000 C CNN
+F 3 "" H 13000 1650 50  0000 C CNN
+	1    13000 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 13000 1450
+Wire Wire Line
+	13000 1500 13000 1450
+Wire Wire Line
+	12750 1450 13000 1450
+Wire Wire Line
+	12750 1150 12750 1100
+Wire Wire Line
+	13000 1400 13000 1450
+Wire Wire Line
+	12800 1100 12750 1100
+$Comp
+L Device:R R?
+U 1 1 60F051D4
+P 12750 1300
+AR Path="/609D2134/60F051D4" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F051D4" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F051D4" Ref="R187"  Part="1" 
+AR Path="/63F303C2/60F051D4" Ref="R?"  Part="1" 
+F 0 "R187" V 12830 1300 50  0000 C CNN
+F 1 "10K" V 12750 1300 50  0000 C CNN
+F 2 "" V 12680 1300 50  0000 C CNN
+F 3 "" H 12750 1300 50  0000 C CNN
+	1    12750 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F051E0
+P 12900 2100
+AR Path="/609D2134/60F051E0" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F051E0" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F051E0" Ref="Q118"  Part="1" 
+AR Path="/63F303C2/60F051E0" Ref="Q?"  Part="1" 
+F 0 "Q118" H 13100 2175 50  0000 L CNN
+F 1 "PN2222" H 13100 2100 50  0000 L CNN
+F 2 "" H 13100 2025 50  0000 L CIN
+F 3 "" H 12900 2100 50  0000 L CNN
+	1    12900 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13000 1900 13000 1850
+$Comp
+L Device:R R?
+U 1 1 60F051E7
+P 12650 2250
+AR Path="/609D2134/60F051E7" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F051E7" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F051E7" Ref="R183"  Part="1" 
+AR Path="/63F303C2/60F051E7" Ref="R?"  Part="1" 
+F 0 "R183" V 12730 2250 50  0000 C CNN
+F 1 "10K" V 12650 2250 50  0000 C CNN
+F 2 "" V 12580 2250 50  0000 C CNN
+F 3 "" H 12650 2250 50  0000 C CNN
+	1    12650 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12650 2100 12700 2100
+$Comp
+L Diode:1N4148 D73
+U 1 1 60F051EE
+P 13000 2500
+AR Path="/609D2250/60F051EE" Ref="D73"  Part="1" 
+AR Path="/63F303C2/60F051EE" Ref="D?"  Part="1" 
+F 0 "D73" V 13046 2420 50  0000 R CNN
+F 1 "1N4148" V 12955 2420 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13000 2325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13000 2500 50  0001 C CNN
+	1    13000 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13000 2300 13000 2350
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F051F5
+P 12900 3150
+AR Path="/609D2134/60F051F5" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F051F5" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F051F5" Ref="Q119"  Part="1" 
+AR Path="/63F303C2/60F051F5" Ref="Q?"  Part="1" 
+F 0 "Q119" H 13100 3225 50  0000 L CNN
+F 1 "PN2222" H 13100 3150 50  0000 L CNN
+F 2 "" H 13100 3075 50  0000 L CIN
+F 3 "" H 12900 3150 50  0000 L CNN
+	1    12900 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12650 3150 12700 3150
+$Comp
+L Diode:1N4148 D74
+U 1 1 60F051FC
+P 13000 3550
+AR Path="/609D2250/60F051FC" Ref="D74"  Part="1" 
+AR Path="/63F303C2/60F051FC" Ref="D?"  Part="1" 
+F 0 "D74" V 13046 3470 50  0000 R CNN
+F 1 "1N4148" V 12955 3470 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13000 3375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13000 3550 50  0001 C CNN
+	1    13000 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13000 3350 13000 3400
+Text HLabel 13050 1850 2    50   Output ~ 0
+P12
+Wire Wire Line
+	13050 1850 13000 1850
+Connection ~ 13000 1850
+Wire Wire Line
+	13000 1850 13000 1800
+Wire Wire Line
+	13200 1200 13200 1100
+$Comp
+L Device:R R?
+U 1 1 60F05221
+P 12650 3300
+AR Path="/609D2134/60F05221" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F05221" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F05221" Ref="R184"  Part="1" 
+AR Path="/63F303C2/60F05221" Ref="R?"  Part="1" 
+F 0 "R184" V 12730 3300 50  0000 C CNN
+F 1 "10K" V 12650 3300 50  0000 C CNN
+F 2 "" V 12580 3300 50  0000 C CNN
+F 3 "" H 12650 3300 50  0000 C CNN
+	1    12650 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 1100 4250 700 
+Wire Wire Line
+	4250 700  3400 700 
+Wire Wire Line
+	3400 700  3400 1100
+Connection ~ 4250 1100
+Connection ~ 3400 1100
+Wire Wire Line
+	4250 700  5100 700 
+Wire Wire Line
+	5100 700  5100 1100
+Connection ~ 4250 700 
+Connection ~ 5100 1100
+Wire Wire Line
+	5100 700  5950 700 
+Wire Wire Line
+	5950 700  5950 1100
+Connection ~ 5100 700 
+Connection ~ 5950 1100
+Wire Wire Line
+	5950 700  6800 700 
+Wire Wire Line
+	6800 700  6800 1100
+Connection ~ 5950 700 
+Connection ~ 6800 1100
+Wire Wire Line
+	6800 700  7650 700 
+Wire Wire Line
+	7650 700  7650 1100
+Connection ~ 6800 700 
+Connection ~ 7650 1100
+Wire Wire Line
+	7650 700  8500 700 
+Wire Wire Line
+	8500 700  8500 1100
+Connection ~ 7650 700 
+Connection ~ 8500 1100
+Wire Wire Line
+	8500 700  9350 700 
+Wire Wire Line
+	9350 700  9350 1100
+Connection ~ 8500 700 
+Connection ~ 9350 1100
+Wire Wire Line
+	9350 700  10200 700 
+Wire Wire Line
+	10200 700  10200 1100
+Connection ~ 9350 700 
+Connection ~ 10200 1100
+Wire Wire Line
+	10200 700  11050 700 
+Wire Wire Line
+	11050 700  11050 1100
+Connection ~ 10200 700 
+Connection ~ 11050 1100
+Wire Wire Line
+	11050 700  11900 700 
+Wire Wire Line
+	11900 700  11900 1100
+Connection ~ 11050 700 
+Connection ~ 11900 1100
+Wire Wire Line
+	11900 700  12750 700 
+Wire Wire Line
+	12750 700  12750 1100
+Connection ~ 11900 700 
+Connection ~ 12750 1100
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 60EA43B2
+P 4500 1200
+AR Path="/609D2134/60EA43B2" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EA43B2" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EA43B2" Ref="Q63"  Part="1" 
+AR Path="/63F303C2/60EA43B2" Ref="Q?"  Part="1" 
+F 0 "Q63" H 4700 1250 50  0000 L CNN
+F 1 "AO3407" H 4700 1150 50  0000 L CNN
+F 2 "" H 4700 1300 50  0000 C CNN
+F 3 "" H 4500 1200 50  0000 C CNN
+	1    4500 1200
+	0    1    -1   0   
+$EndComp
+Text HLabel 4700 1200 3    50   Output ~ 0
+D2
+Text HLabel 6400 1200 3    50   Output ~ 0
+D4
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 60EB8404
+P 6200 1200
+AR Path="/609D2134/60EB8404" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EB8404" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EB8404" Ref="Q76"  Part="1" 
+AR Path="/63F303C2/60EB8404" Ref="Q?"  Part="1" 
+F 0 "Q76" H 6400 1250 50  0000 L CNN
+F 1 "AO3407" H 6400 1150 50  0000 L CNN
+F 2 "" H 6400 1300 50  0000 C CNN
+F 3 "" H 6200 1200 50  0000 C CNN
+	1    6200 1200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R93
+U 1 1 60CB1CD5
+P 2200 10000
+AR Path="/609D2250/60CB1CD5" Ref="R93"  Part="1" 
+AR Path="/63F303C2/60CB1CD5" Ref="R?"  Part="1" 
+F 0 "R93" V 2280 10000 50  0000 C CNN
+F 1 "10k" V 2200 10000 50  0000 C CNN
+F 2 "" V 2130 10000 50  0000 C CNN
+F 3 "" H 2200 10000 50  0000 C CNN
+	1    2200 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 10200 2500 10200
+$Comp
+L Device:R R95
+U 1 1 60CB1CE5
+P 2700 10350
+AR Path="/609D2250/60CB1CE5" Ref="R95"  Part="1" 
+AR Path="/63F303C2/60CB1CE5" Ref="R?"  Part="1" 
+F 0 "R95" V 2780 10350 50  0000 C CNN
+F 1 "10k" V 2700 10350 50  0000 C CNN
+F 2 "" V 2630 10350 50  0000 C CNN
+F 3 "" H 2700 10350 50  0000 C CNN
+	1    2700 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 10250 3000 10250
+Wire Wire Line
+	3300 10050 3300 10000
+$Comp
+L Device:Q_NPN_BCE Q52
+U 1 1 60CB1CFD
+P 3200 10250
+AR Path="/609D2250/60CB1CFD" Ref="Q52"  Part="1" 
+AR Path="/63F303C2/60CB1CFD" Ref="Q?"  Part="1" 
+F 0 "Q52" H 3400 10325 50  0000 L CNN
+F 1 "PN2222" H 3400 10250 50  0000 L CNN
+F 2 "" H 3400 10175 50  0000 L CIN
+F 3 "" H 3200 10250 50  0000 L CNN
+	1    3200 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60CB1D03
+P 2950 10050
+AR Path="/609D2134/60CB1D03" Ref="R?"  Part="1" 
+AR Path="/609D2250/60CB1D03" Ref="R96"  Part="1" 
+AR Path="/63F303C2/60CB1D03" Ref="R?"  Part="1" 
+F 0 "R96" V 3030 10050 50  0000 C CNN
+F 1 "10k" V 2950 10050 50  0000 C CNN
+F 2 "" V 2880 10050 50  0000 C CNN
+F 3 "" H 2950 10050 50  0000 C CNN
+	1    2950 10050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60CB1D09
+P 3300 9850
+AR Path="/609D2134/60CB1D09" Ref="R?"  Part="1" 
+AR Path="/609D2250/60CB1D09" Ref="R101"  Part="1" 
+AR Path="/63F303C2/60CB1D09" Ref="R?"  Part="1" 
+F 0 "R101" V 3380 9850 50  0000 C CNN
+F 1 "4.7k" V 3300 9850 50  0000 C CNN
+F 2 "" V 3230 9850 50  0000 C CNN
+F 3 "" H 3300 9850 50  0000 C CNN
+	1    3300 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 60D81851
+P 2500 9900
+AR Path="/609D2134/60D81851" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60D81851" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60D81851" Ref="Q51"  Part="1" 
+AR Path="/63F303C2/60D81851" Ref="Q?"  Part="1" 
+F 0 "Q51" H 2700 9950 50  0000 L CNN
+F 1 "AO3407" H 2700 9850 50  0000 L CNN
+F 2 "" H 2700 10000 50  0000 C CNN
+F 3 "" H 2500 9900 50  0000 C CNN
+	1    2500 9900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2200 9850 2200 9800
+Connection ~ 2200 9800
+Wire Wire Line
+	2300 9800 2200 9800
+Wire Wire Line
+	2200 10150 2200 10200
+Wire Wire Line
+	2500 10200 2500 10100
+Wire Wire Line
+	2700 10200 2700 9800
+Wire Wire Line
+	2700 9800 2950 9800
+Wire Wire Line
+	2950 9800 2950 9900
+Connection ~ 2700 9800
+Wire Wire Line
+	2950 10200 2950 10250
+$Comp
+L Device:Q_NPN_BCE Q58
+U 1 1 60F3A6CF
+P 3650 10050
+AR Path="/609D2250/60F3A6CF" Ref="Q58"  Part="1" 
+AR Path="/63F303C2/60F3A6CF" Ref="Q?"  Part="1" 
+F 0 "Q58" H 3850 10125 50  0000 L CNN
+F 1 "PN2222" H 3850 10050 50  0000 L CNN
+F 2 "" H 3850 9975 50  0000 L CIN
+F 3 "" H 3650 10050 50  0000 L CNN
+	1    3650 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 10050 3300 10050
+Connection ~ 3300 10050
+$Comp
+L Device:R R?
+U 1 1 60F7A339
+P 3750 10500
+AR Path="/609D2134/60F7A339" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F7A339" Ref="R104"  Part="1" 
+AR Path="/63F303C2/60F7A339" Ref="R?"  Part="1" 
+F 0 "R104" V 3830 10500 50  0000 C CNN
+F 1 "10k" V 3750 10500 50  0000 C CNN
+F 2 "" V 3680 10500 50  0000 C CNN
+F 3 "" H 3750 10500 50  0000 C CNN
+	1    3750 10500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3750 10350 3750 10300
+Wire Wire Line
+	2200 9400 3300 9400
+Wire Wire Line
+	2200 9400 2200 9800
+Connection ~ 3300 9400
+Wire Wire Line
+	3300 9400 3750 9400
+Wire Wire Line
+	3300 9400 3300 9700
+Wire Wire Line
+	3750 9400 3750 9850
+Text HLabel 2500 10550 3    50   Output ~ 0
+EN1
+$Comp
+L Device:R R?
+U 1 1 60CB1CC8
+P 2500 10350
+AR Path="/609D2134/60CB1CC8" Ref="R?"  Part="1" 
+AR Path="/609D2250/60CB1CC8" Ref="R94"  Part="1" 
+AR Path="/63F303C2/60CB1CC8" Ref="R?"  Part="1" 
+F 0 "R94" V 2580 10350 50  0000 C CNN
+F 1 "100" V 2500 10350 50  0000 C CNN
+F 2 "" V 2430 10350 50  0000 C CNN
+F 3 "" H 2500 10350 50  0000 C CNN
+	1    2500 10350
+	-1   0    0    1   
+$EndComp
+Connection ~ 2500 10200
+Wire Wire Line
+	2500 10550 2500 10500
+Wire Wire Line
+	2700 10850 3300 10850
+Connection ~ 3300 10850
+Wire Wire Line
+	3300 10850 3750 10850
+Wire Wire Line
+	2700 10500 2700 10850
+Wire Wire Line
+	3750 10650 3750 10850
+Wire Wire Line
+	3300 10450 3300 10850
+$Comp
+L Device:R R110
+U 1 1 611A4A38
+P 4250 10000
+AR Path="/609D2250/611A4A38" Ref="R110"  Part="1" 
+AR Path="/63F303C2/611A4A38" Ref="R?"  Part="1" 
+F 0 "R110" V 4330 10000 50  0000 C CNN
+F 1 "10k" V 4250 10000 50  0000 C CNN
+F 2 "" V 4180 10000 50  0000 C CNN
+F 3 "" H 4250 10000 50  0000 C CNN
+	1    4250 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 10200 4550 10200
+$Comp
+L Device:R R113
+U 1 1 611A4A3F
+P 4750 10350
+AR Path="/609D2250/611A4A3F" Ref="R113"  Part="1" 
+AR Path="/63F303C2/611A4A3F" Ref="R?"  Part="1" 
+F 0 "R113" V 4830 10350 50  0000 C CNN
+F 1 "10k" V 4750 10350 50  0000 C CNN
+F 2 "" V 4680 10350 50  0000 C CNN
+F 3 "" H 4750 10350 50  0000 C CNN
+	1    4750 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 10250 5050 10250
+Wire Wire Line
+	5350 10050 5350 10000
+$Comp
+L Device:Q_NPN_BCE Q69
+U 1 1 611A4A47
+P 5250 10250
+AR Path="/609D2250/611A4A47" Ref="Q69"  Part="1" 
+AR Path="/63F303C2/611A4A47" Ref="Q?"  Part="1" 
+F 0 "Q69" H 5450 10325 50  0000 L CNN
+F 1 "PN2222" H 5450 10250 50  0000 L CNN
+F 2 "" H 5450 10175 50  0000 L CIN
+F 3 "" H 5250 10250 50  0000 L CNN
+	1    5250 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 611A4A4D
+P 5000 10050
+AR Path="/609D2134/611A4A4D" Ref="R?"  Part="1" 
+AR Path="/609D2250/611A4A4D" Ref="R118"  Part="1" 
+AR Path="/63F303C2/611A4A4D" Ref="R?"  Part="1" 
+F 0 "R118" V 5080 10050 50  0000 C CNN
+F 1 "10k" V 5000 10050 50  0000 C CNN
+F 2 "" V 4930 10050 50  0000 C CNN
+F 3 "" H 5000 10050 50  0000 C CNN
+	1    5000 10050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 611A4A53
+P 5350 9850
+AR Path="/609D2134/611A4A53" Ref="R?"  Part="1" 
+AR Path="/609D2250/611A4A53" Ref="R121"  Part="1" 
+AR Path="/63F303C2/611A4A53" Ref="R?"  Part="1" 
+F 0 "R121" V 5430 9850 50  0000 C CNN
+F 1 "4.7k" V 5350 9850 50  0000 C CNN
+F 2 "" V 5280 9850 50  0000 C CNN
+F 3 "" H 5350 9850 50  0000 C CNN
+	1    5350 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 611A4A59
+P 4550 9900
+AR Path="/609D2134/611A4A59" Ref="Q?"  Part="1" 
+AR Path="/609D2215/611A4A59" Ref="Q?"  Part="1" 
+AR Path="/609D2250/611A4A59" Ref="Q64"  Part="1" 
+AR Path="/63F303C2/611A4A59" Ref="Q?"  Part="1" 
+F 0 "Q64" H 4750 9950 50  0000 L CNN
+F 1 "AO3407" H 4750 9850 50  0000 L CNN
+F 2 "" H 4750 10000 50  0000 C CNN
+F 3 "" H 4550 9900 50  0000 C CNN
+	1    4550 9900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4250 9850 4250 9800
+Connection ~ 4250 9800
+Wire Wire Line
+	4350 9800 4250 9800
+Wire Wire Line
+	4250 10150 4250 10200
+Wire Wire Line
+	4550 10200 4550 10100
+Wire Wire Line
+	4750 10200 4750 9800
+Wire Wire Line
+	4750 9800 5000 9800
+Wire Wire Line
+	5000 9800 5000 9900
+Connection ~ 4750 9800
+Wire Wire Line
+	5000 10200 5000 10250
+$Comp
+L Device:Q_NPN_BCE Q71
+U 1 1 611A4A69
+P 5700 10050
+AR Path="/609D2250/611A4A69" Ref="Q71"  Part="1" 
+AR Path="/63F303C2/611A4A69" Ref="Q?"  Part="1" 
+F 0 "Q71" H 5900 10125 50  0000 L CNN
+F 1 "PN2222" H 5900 10050 50  0000 L CNN
+F 2 "" H 5900 9975 50  0000 L CIN
+F 3 "" H 5700 10050 50  0000 L CNN
+	1    5700 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 10050 5350 10050
+Connection ~ 5350 10050
+$Comp
+L Device:R R?
+U 1 1 611A4A71
+P 5800 10500
+AR Path="/609D2134/611A4A71" Ref="R?"  Part="1" 
+AR Path="/609D2250/611A4A71" Ref="R122"  Part="1" 
+AR Path="/63F303C2/611A4A71" Ref="R?"  Part="1" 
+F 0 "R122" V 5880 10500 50  0000 C CNN
+F 1 "10k" V 5800 10500 50  0000 C CNN
+F 2 "" V 5730 10500 50  0000 C CNN
+F 3 "" H 5800 10500 50  0000 C CNN
+	1    5800 10500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 10350 5800 10300
+Wire Wire Line
+	4250 9400 5350 9400
+Wire Wire Line
+	4250 9400 4250 9800
+Connection ~ 5350 9400
+Wire Wire Line
+	5350 9400 5800 9400
+Wire Wire Line
+	5350 9400 5350 9700
+Wire Wire Line
+	5800 9400 5800 9850
+Text HLabel 4550 10550 3    50   Output ~ 0
+EN2
+$Comp
+L Device:R R?
+U 1 1 611A4A7F
+P 4550 10350
+AR Path="/609D2134/611A4A7F" Ref="R?"  Part="1" 
+AR Path="/609D2250/611A4A7F" Ref="R112"  Part="1" 
+AR Path="/63F303C2/611A4A7F" Ref="R?"  Part="1" 
+F 0 "R112" V 4630 10350 50  0000 C CNN
+F 1 "100" V 4550 10350 50  0000 C CNN
+F 2 "" V 4480 10350 50  0000 C CNN
+F 3 "" H 4550 10350 50  0000 C CNN
+	1    4550 10350
+	-1   0    0    1   
+$EndComp
+Connection ~ 4550 10200
+Wire Wire Line
+	4550 10550 4550 10500
+Wire Wire Line
+	4750 10850 5350 10850
+Connection ~ 5350 10850
+Wire Wire Line
+	5350 10850 5800 10850
+Wire Wire Line
+	4750 10500 4750 10850
+Wire Wire Line
+	5800 10650 5800 10850
+Wire Wire Line
+	5350 10450 5350 10850
+$Comp
+L Device:R R129
+U 1 1 611C58A8
+P 6350 10000
+AR Path="/609D2250/611C58A8" Ref="R129"  Part="1" 
+AR Path="/63F303C2/611C58A8" Ref="R?"  Part="1" 
+F 0 "R129" V 6430 10000 50  0000 C CNN
+F 1 "10k" V 6350 10000 50  0000 C CNN
+F 2 "" V 6280 10000 50  0000 C CNN
+F 3 "" H 6350 10000 50  0000 C CNN
+	1    6350 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 10200 6650 10200
+$Comp
+L Device:R R136
+U 1 1 611C58AF
+P 6850 10350
+AR Path="/609D2250/611C58AF" Ref="R136"  Part="1" 
+AR Path="/63F303C2/611C58AF" Ref="R?"  Part="1" 
+F 0 "R136" V 6930 10350 50  0000 C CNN
+F 1 "10k" V 6850 10350 50  0000 C CNN
+F 2 "" V 6780 10350 50  0000 C CNN
+F 3 "" H 6850 10350 50  0000 C CNN
+	1    6850 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 10250 7150 10250
+Wire Wire Line
+	7450 10050 7450 10000
+$Comp
+L Device:Q_NPN_BCE Q83
+U 1 1 611C58B7
+P 7350 10250
+AR Path="/609D2250/611C58B7" Ref="Q83"  Part="1" 
+AR Path="/63F303C2/611C58B7" Ref="Q?"  Part="1" 
+F 0 "Q83" H 7550 10325 50  0000 L CNN
+F 1 "PN2222" H 7550 10250 50  0000 L CNN
+F 2 "" H 7550 10175 50  0000 L CIN
+F 3 "" H 7350 10250 50  0000 L CNN
+	1    7350 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 611C58BD
+P 7100 10050
+AR Path="/609D2134/611C58BD" Ref="R?"  Part="1" 
+AR Path="/609D2250/611C58BD" Ref="R138"  Part="1" 
+AR Path="/63F303C2/611C58BD" Ref="R?"  Part="1" 
+F 0 "R138" V 7180 10050 50  0000 C CNN
+F 1 "10k" V 7100 10050 50  0000 C CNN
+F 2 "" V 7030 10050 50  0000 C CNN
+F 3 "" H 7100 10050 50  0000 C CNN
+	1    7100 10050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 611C58C3
+P 7450 9850
+AR Path="/609D2134/611C58C3" Ref="R?"  Part="1" 
+AR Path="/609D2250/611C58C3" Ref="R139"  Part="1" 
+AR Path="/63F303C2/611C58C3" Ref="R?"  Part="1" 
+F 0 "R139" V 7530 9850 50  0000 C CNN
+F 1 "4.7k" V 7450 9850 50  0000 C CNN
+F 2 "" V 7380 9850 50  0000 C CNN
+F 3 "" H 7450 9850 50  0000 C CNN
+	1    7450 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 611C58C9
+P 6650 9900
+AR Path="/609D2134/611C58C9" Ref="Q?"  Part="1" 
+AR Path="/609D2215/611C58C9" Ref="Q?"  Part="1" 
+AR Path="/609D2250/611C58C9" Ref="Q77"  Part="1" 
+AR Path="/63F303C2/611C58C9" Ref="Q?"  Part="1" 
+F 0 "Q77" H 6850 9950 50  0000 L CNN
+F 1 "AO3407" H 6850 9850 50  0000 L CNN
+F 2 "" H 6850 10000 50  0000 C CNN
+F 3 "" H 6650 9900 50  0000 C CNN
+	1    6650 9900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6350 9850 6350 9800
+Connection ~ 6350 9800
+Wire Wire Line
+	6450 9800 6350 9800
+Wire Wire Line
+	6350 10150 6350 10200
+Wire Wire Line
+	6650 10200 6650 10100
+Wire Wire Line
+	6850 10200 6850 9800
+Wire Wire Line
+	6850 9800 7100 9800
+Wire Wire Line
+	7100 9800 7100 9900
+Connection ~ 6850 9800
+Wire Wire Line
+	7100 10200 7100 10250
+$Comp
+L Device:Q_NPN_BCE Q88
+U 1 1 611C58D9
+P 7800 10050
+AR Path="/609D2250/611C58D9" Ref="Q88"  Part="1" 
+AR Path="/63F303C2/611C58D9" Ref="Q?"  Part="1" 
+F 0 "Q88" H 8000 10125 50  0000 L CNN
+F 1 "PN2222" H 8000 10050 50  0000 L CNN
+F 2 "" H 8000 9975 50  0000 L CIN
+F 3 "" H 7800 10050 50  0000 L CNN
+	1    7800 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 10050 7450 10050
+Connection ~ 7450 10050
+$Comp
+L Device:R R?
+U 1 1 611C58E1
+P 7900 10500
+AR Path="/609D2134/611C58E1" Ref="R?"  Part="1" 
+AR Path="/609D2250/611C58E1" Ref="R146"  Part="1" 
+AR Path="/63F303C2/611C58E1" Ref="R?"  Part="1" 
+F 0 "R146" V 7980 10500 50  0000 C CNN
+F 1 "10k" V 7900 10500 50  0000 C CNN
+F 2 "" V 7830 10500 50  0000 C CNN
+F 3 "" H 7900 10500 50  0000 C CNN
+	1    7900 10500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7900 10350 7900 10300
+Wire Wire Line
+	6350 9400 7450 9400
+Wire Wire Line
+	6350 9400 6350 9800
+Connection ~ 7450 9400
+Wire Wire Line
+	7450 9400 7900 9400
+Wire Wire Line
+	7450 9400 7450 9700
+Wire Wire Line
+	7900 9400 7900 9850
+Text HLabel 6650 10550 3    50   Output ~ 0
+EN3
+$Comp
+L Device:R R?
+U 1 1 611C58EF
+P 6650 10350
+AR Path="/609D2134/611C58EF" Ref="R?"  Part="1" 
+AR Path="/609D2250/611C58EF" Ref="R130"  Part="1" 
+AR Path="/63F303C2/611C58EF" Ref="R?"  Part="1" 
+F 0 "R130" V 6730 10350 50  0000 C CNN
+F 1 "100" V 6650 10350 50  0000 C CNN
+F 2 "" V 6580 10350 50  0000 C CNN
+F 3 "" H 6650 10350 50  0000 C CNN
+	1    6650 10350
+	-1   0    0    1   
+$EndComp
+Connection ~ 6650 10200
+Wire Wire Line
+	6650 10550 6650 10500
+Wire Wire Line
+	6850 10850 7450 10850
+Connection ~ 7450 10850
+Wire Wire Line
+	7450 10850 7900 10850
+Wire Wire Line
+	6850 10500 6850 10850
+Wire Wire Line
+	7900 10650 7900 10850
+Wire Wire Line
+	7450 10450 7450 10850
+$Comp
+L Device:R R151
+U 1 1 611C58FD
+P 8400 10000
+AR Path="/609D2250/611C58FD" Ref="R151"  Part="1" 
+AR Path="/63F303C2/611C58FD" Ref="R?"  Part="1" 
+F 0 "R151" V 8480 10000 50  0000 C CNN
+F 1 "10k" V 8400 10000 50  0000 C CNN
+F 2 "" V 8330 10000 50  0000 C CNN
+F 3 "" H 8400 10000 50  0000 C CNN
+	1    8400 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 10200 8700 10200
+$Comp
+L Device:R R155
+U 1 1 611C5904
+P 8900 10350
+AR Path="/609D2250/611C5904" Ref="R155"  Part="1" 
+AR Path="/63F303C2/611C5904" Ref="R?"  Part="1" 
+F 0 "R155" V 8980 10350 50  0000 C CNN
+F 1 "10k" V 8900 10350 50  0000 C CNN
+F 2 "" V 8830 10350 50  0000 C CNN
+F 3 "" H 8900 10350 50  0000 C CNN
+	1    8900 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 10250 9200 10250
+Wire Wire Line
+	9500 10050 9500 10000
+$Comp
+L Device:Q_NPN_BCE Q96
+U 1 1 611C590C
+P 9400 10250
+AR Path="/609D2250/611C590C" Ref="Q96"  Part="1" 
+AR Path="/63F303C2/611C590C" Ref="Q?"  Part="1" 
+F 0 "Q96" H 9600 10325 50  0000 L CNN
+F 1 "PN2222" H 9600 10250 50  0000 L CNN
+F 2 "" H 9600 10175 50  0000 L CIN
+F 3 "" H 9400 10250 50  0000 L CNN
+	1    9400 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 611C5912
+P 9150 10050
+AR Path="/609D2134/611C5912" Ref="R?"  Part="1" 
+AR Path="/609D2250/611C5912" Ref="R156"  Part="1" 
+AR Path="/63F303C2/611C5912" Ref="R?"  Part="1" 
+F 0 "R156" V 9230 10050 50  0000 C CNN
+F 1 "10k" V 9150 10050 50  0000 C CNN
+F 2 "" V 9080 10050 50  0000 C CNN
+F 3 "" H 9150 10050 50  0000 C CNN
+	1    9150 10050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 611C5918
+P 9500 9850
+AR Path="/609D2134/611C5918" Ref="R?"  Part="1" 
+AR Path="/609D2250/611C5918" Ref="R162"  Part="1" 
+AR Path="/63F303C2/611C5918" Ref="R?"  Part="1" 
+F 0 "R162" V 9580 9850 50  0000 C CNN
+F 1 "4.7k" V 9500 9850 50  0000 C CNN
+F 2 "" V 9430 9850 50  0000 C CNN
+F 3 "" H 9500 9850 50  0000 C CNN
+	1    9500 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 611C591E
+P 8700 9900
+AR Path="/609D2134/611C591E" Ref="Q?"  Part="1" 
+AR Path="/609D2215/611C591E" Ref="Q?"  Part="1" 
+AR Path="/609D2250/611C591E" Ref="Q94"  Part="1" 
+AR Path="/63F303C2/611C591E" Ref="Q?"  Part="1" 
+F 0 "Q94" H 8900 9950 50  0000 L CNN
+F 1 "AO3407" H 8900 9850 50  0000 L CNN
+F 2 "" H 8900 10000 50  0000 C CNN
+F 3 "" H 8700 9900 50  0000 C CNN
+	1    8700 9900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8400 9850 8400 9800
+Connection ~ 8400 9800
+Wire Wire Line
+	8500 9800 8400 9800
+Wire Wire Line
+	8400 10150 8400 10200
+Wire Wire Line
+	8700 10200 8700 10100
+Wire Wire Line
+	8900 10200 8900 9800
+Wire Wire Line
+	8900 9800 9150 9800
+Wire Wire Line
+	9150 9800 9150 9900
+Connection ~ 8900 9800
+Wire Wire Line
+	9150 10200 9150 10250
+$Comp
+L Device:Q_NPN_BCE Q102
+U 1 1 611C592E
+P 9850 10050
+AR Path="/609D2250/611C592E" Ref="Q102"  Part="1" 
+AR Path="/63F303C2/611C592E" Ref="Q?"  Part="1" 
+F 0 "Q102" H 10050 10125 50  0000 L CNN
+F 1 "PN2222" H 10050 10050 50  0000 L CNN
+F 2 "" H 10050 9975 50  0000 L CIN
+F 3 "" H 9850 10050 50  0000 L CNN
+	1    9850 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 10050 9500 10050
+Connection ~ 9500 10050
+$Comp
+L Device:R R?
+U 1 1 611C5936
+P 9950 10500
+AR Path="/609D2134/611C5936" Ref="R?"  Part="1" 
+AR Path="/609D2250/611C5936" Ref="R164"  Part="1" 
+AR Path="/63F303C2/611C5936" Ref="R?"  Part="1" 
+F 0 "R164" V 10030 10500 50  0000 C CNN
+F 1 "10k" V 9950 10500 50  0000 C CNN
+F 2 "" V 9880 10500 50  0000 C CNN
+F 3 "" H 9950 10500 50  0000 C CNN
+	1    9950 10500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9950 10350 9950 10300
+Wire Wire Line
+	8400 9400 9500 9400
+Wire Wire Line
+	8400 9400 8400 9800
+Connection ~ 9500 9400
+Wire Wire Line
+	9500 9400 9500 9700
+Wire Wire Line
+	9950 9400 9950 9850
+Text HLabel 8700 10550 3    50   Output ~ 0
+EN4
+$Comp
+L Device:R R?
+U 1 1 611C5944
+P 8700 10350
+AR Path="/609D2134/611C5944" Ref="R?"  Part="1" 
+AR Path="/609D2250/611C5944" Ref="R153"  Part="1" 
+AR Path="/63F303C2/611C5944" Ref="R?"  Part="1" 
+F 0 "R153" V 8780 10350 50  0000 C CNN
+F 1 "100" V 8700 10350 50  0000 C CNN
+F 2 "" V 8630 10350 50  0000 C CNN
+F 3 "" H 8700 10350 50  0000 C CNN
+	1    8700 10350
+	-1   0    0    1   
+$EndComp
+Connection ~ 8700 10200
+Wire Wire Line
+	8700 10550 8700 10500
+Wire Wire Line
+	8900 10850 9500 10850
+Connection ~ 9500 10850
+Wire Wire Line
+	9500 10850 9950 10850
+Wire Wire Line
+	8900 10500 8900 10850
+Wire Wire Line
+	9950 10650 9950 10850
+Wire Wire Line
+	9500 10450 9500 10850
+Wire Wire Line
+	3750 9400 4250 9400
+Connection ~ 3750 9400
+Connection ~ 4250 9400
+Wire Wire Line
+	5800 9400 6350 9400
+Connection ~ 5800 9400
+Connection ~ 6350 9400
+Wire Wire Line
+	7900 9400 8400 9400
+Connection ~ 7900 9400
+Connection ~ 8400 9400
+Wire Wire Line
+	3750 10850 4750 10850
+Connection ~ 3750 10850
+Connection ~ 4750 10850
+Wire Wire Line
+	5800 10850 6850 10850
+Connection ~ 5800 10850
+Connection ~ 6850 10850
+Wire Wire Line
+	7900 10850 8900 10850
+Connection ~ 7900 10850
+Connection ~ 8900 10850
+Wire Wire Line
+	13450 700  12750 700 
+Connection ~ 12750 700 
+Wire Wire Line
+	4000 10300 3750 10300
+Connection ~ 3750 10300
+Wire Wire Line
+	3750 10300 3750 10250
+Connection ~ 2950 9800
+Wire Wire Line
+	6050 10300 5800 10300
+Connection ~ 5800 10300
+Wire Wire Line
+	5800 10300 5800 10250
+Connection ~ 5000 9800
+$Comp
+L Device:R R?
+U 1 1 60F05227
+P 12650 4350
+AR Path="/609D2134/60F05227" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F05227" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F05227" Ref="R185"  Part="1" 
+AR Path="/63F303C2/60F05227" Ref="R?"  Part="1" 
+F 0 "R185" V 12730 4350 50  0000 C CNN
+F 1 "10K" V 12650 4350 50  0000 C CNN
+F 2 "" V 12580 4350 50  0000 C CNN
+F 3 "" H 12650 4350 50  0000 C CNN
+	1    12650 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12650 5250 12700 5250
+Wire Wire Line
+	13000 4400 13000 4450
+$Comp
+L Diode:1N4148 D75
+U 1 1 60F0520A
+P 13000 4600
+AR Path="/609D2250/60F0520A" Ref="D75"  Part="1" 
+AR Path="/63F303C2/60F0520A" Ref="D?"  Part="1" 
+F 0 "D75" V 13046 4520 50  0000 R CNN
+F 1 "1N4148" V 12955 4520 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13000 4425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13000 4600 50  0001 C CNN
+	1    13000 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12650 4200 12700 4200
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F05203
+P 12900 4200
+AR Path="/609D2134/60F05203" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F05203" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F05203" Ref="Q120"  Part="1" 
+AR Path="/63F303C2/60F05203" Ref="Q?"  Part="1" 
+F 0 "Q120" H 13100 4275 50  0000 L CNN
+F 1 "PN2222" H 13100 4200 50  0000 L CNN
+F 2 "" H 13100 4125 50  0000 L CIN
+F 3 "" H 12900 4200 50  0000 L CNN
+	1    12900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F051BB
+P 11800 4350
+AR Path="/609D2134/60F051BB" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F051BB" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F051BB" Ref="R179"  Part="1" 
+AR Path="/63F303C2/60F051BB" Ref="R?"  Part="1" 
+F 0 "R179" V 11880 4350 50  0000 C CNN
+F 1 "10K" V 11800 4350 50  0000 C CNN
+F 2 "" V 11730 4350 50  0000 C CNN
+F 3 "" H 11800 4350 50  0000 C CNN
+	1    11800 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11800 5250 11850 5250
+Wire Wire Line
+	12150 4400 12150 4450
+$Comp
+L Diode:1N4148 D72
+U 1 1 60F0519E
+P 12150 4600
+AR Path="/609D2250/60F0519E" Ref="D72"  Part="1" 
+AR Path="/63F303C2/60F0519E" Ref="D?"  Part="1" 
+F 0 "D72" V 12196 4520 50  0000 R CNN
+F 1 "1N4148" V 12105 4520 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12150 4425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12150 4600 50  0001 C CNN
+	1    12150 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11800 4200 11850 4200
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F05197
+P 12050 4200
+AR Path="/609D2134/60F05197" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F05197" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F05197" Ref="Q115"  Part="1" 
+AR Path="/63F303C2/60F05197" Ref="Q?"  Part="1" 
+F 0 "Q115" H 12250 4275 50  0000 L CNN
+F 1 "PN2222" H 12250 4200 50  0000 L CNN
+F 2 "" H 12250 4125 50  0000 L CIN
+F 3 "" H 12050 4200 50  0000 L CNN
+	1    12050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F0514F
+P 10950 4350
+AR Path="/609D2134/60F0514F" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F0514F" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F0514F" Ref="R173"  Part="1" 
+AR Path="/63F303C2/60F0514F" Ref="R?"  Part="1" 
+F 0 "R173" V 11030 4350 50  0000 C CNN
+F 1 "10K" V 10950 4350 50  0000 C CNN
+F 2 "" V 10880 4350 50  0000 C CNN
+F 3 "" H 10950 4350 50  0000 C CNN
+	1    10950 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10950 5250 11000 5250
+Wire Wire Line
+	11300 4400 11300 4450
+$Comp
+L Diode:1N4148 D69
+U 1 1 60F05132
+P 11300 4600
+AR Path="/609D2250/60F05132" Ref="D69"  Part="1" 
+AR Path="/63F303C2/60F05132" Ref="D?"  Part="1" 
+F 0 "D69" V 11346 4520 50  0000 R CNN
+F 1 "1N4148" V 11255 4520 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11300 4425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11300 4600 50  0001 C CNN
+	1    11300 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10950 4200 11000 4200
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F0512B
+P 11200 4200
+AR Path="/609D2134/60F0512B" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F0512B" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F0512B" Ref="Q110"  Part="1" 
+AR Path="/63F303C2/60F0512B" Ref="Q?"  Part="1" 
+F 0 "Q110" H 11400 4275 50  0000 L CNN
+F 1 "PN2222" H 11400 4200 50  0000 L CNN
+F 2 "" H 11400 4125 50  0000 L CIN
+F 3 "" H 11200 4200 50  0000 L CNN
+	1    11200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F050E3
+P 10100 4350
+AR Path="/609D2134/60F050E3" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F050E3" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F050E3" Ref="R167"  Part="1" 
+AR Path="/63F303C2/60F050E3" Ref="R?"  Part="1" 
+F 0 "R167" V 10180 4350 50  0000 C CNN
+F 1 "10K" V 10100 4350 50  0000 C CNN
+F 2 "" V 10030 4350 50  0000 C CNN
+F 3 "" H 10100 4350 50  0000 C CNN
+	1    10100 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10100 5250 10150 5250
+Wire Wire Line
+	10450 4400 10450 4450
+$Comp
+L Diode:1N4148 D66
+U 1 1 60F050C6
+P 10450 4600
+AR Path="/609D2250/60F050C6" Ref="D66"  Part="1" 
+AR Path="/63F303C2/60F050C6" Ref="D?"  Part="1" 
+F 0 "D66" V 10496 4520 50  0000 R CNN
+F 1 "1N4148" V 10405 4520 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10450 4425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10450 4600 50  0001 C CNN
+	1    10450 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 4200 10150 4200
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F050BF
+P 10350 4200
+AR Path="/609D2134/60F050BF" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F050BF" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F050BF" Ref="Q105"  Part="1" 
+AR Path="/63F303C2/60F050BF" Ref="Q?"  Part="1" 
+F 0 "Q105" H 10550 4275 50  0000 L CNN
+F 1 "PN2222" H 10550 4200 50  0000 L CNN
+F 2 "" H 10550 4125 50  0000 L CIN
+F 3 "" H 10350 4200 50  0000 L CNN
+	1    10350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F05077
+P 9250 4350
+AR Path="/609D2134/60F05077" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F05077" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F05077" Ref="R159"  Part="1" 
+AR Path="/63F303C2/60F05077" Ref="R?"  Part="1" 
+F 0 "R159" V 9330 4350 50  0000 C CNN
+F 1 "10K" V 9250 4350 50  0000 C CNN
+F 2 "" V 9180 4350 50  0000 C CNN
+F 3 "" H 9250 4350 50  0000 C CNN
+	1    9250 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9250 5250 9300 5250
+Wire Wire Line
+	9600 4400 9600 4450
+$Comp
+L Diode:1N4148 D63
+U 1 1 60F0505A
+P 9600 4600
+AR Path="/609D2250/60F0505A" Ref="D63"  Part="1" 
+AR Path="/63F303C2/60F0505A" Ref="D?"  Part="1" 
+F 0 "D63" V 9646 4520 50  0000 R CNN
+F 1 "1N4148" V 9555 4520 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9600 4425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9600 4600 50  0001 C CNN
+	1    9600 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9250 4200 9300 4200
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F05053
+P 9500 4200
+AR Path="/609D2134/60F05053" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F05053" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F05053" Ref="Q99"  Part="1" 
+AR Path="/63F303C2/60F05053" Ref="Q?"  Part="1" 
+F 0 "Q99" H 9700 4275 50  0000 L CNN
+F 1 "PN2222" H 9700 4200 50  0000 L CNN
+F 2 "" H 9700 4125 50  0000 L CIN
+F 3 "" H 9500 4200 50  0000 L CNN
+	1    9500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F0500B
+P 8400 4350
+AR Path="/609D2134/60F0500B" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F0500B" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F0500B" Ref="R149"  Part="1" 
+AR Path="/63F303C2/60F0500B" Ref="R?"  Part="1" 
+F 0 "R149" V 8480 4350 50  0000 C CNN
+F 1 "10K" V 8400 4350 50  0000 C CNN
+F 2 "" V 8330 4350 50  0000 C CNN
+F 3 "" H 8400 4350 50  0000 C CNN
+	1    8400 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8400 5250 8450 5250
+Wire Wire Line
+	8750 4400 8750 4450
+$Comp
+L Diode:1N4148 D60
+U 1 1 60F04FEE
+P 8750 4600
+AR Path="/609D2250/60F04FEE" Ref="D60"  Part="1" 
+AR Path="/63F303C2/60F04FEE" Ref="D?"  Part="1" 
+F 0 "D60" V 8796 4520 50  0000 R CNN
+F 1 "1N4148" V 8705 4520 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8750 4425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8750 4600 50  0001 C CNN
+	1    8750 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 4200 8450 4200
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F04FE7
+P 8650 4200
+AR Path="/609D2134/60F04FE7" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F04FE7" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F04FE7" Ref="Q92"  Part="1" 
+AR Path="/63F303C2/60F04FE7" Ref="Q?"  Part="1" 
+F 0 "Q92" H 8850 4275 50  0000 L CNN
+F 1 "PN2222" H 8850 4200 50  0000 L CNN
+F 2 "" H 8850 4125 50  0000 L CIN
+F 3 "" H 8650 4200 50  0000 L CNN
+	1    8650 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EC10EF
+P 7550 4350
+AR Path="/609D2134/60EC10EF" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EC10EF" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EC10EF" Ref="R142"  Part="1" 
+AR Path="/63F303C2/60EC10EF" Ref="R?"  Part="1" 
+F 0 "R142" V 7630 4350 50  0000 C CNN
+F 1 "10K" V 7550 4350 50  0000 C CNN
+F 2 "" V 7480 4350 50  0000 C CNN
+F 3 "" H 7550 4350 50  0000 C CNN
+	1    7550 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7550 5250 7600 5250
+Wire Wire Line
+	7900 4400 7900 4450
+$Comp
+L Diode:1N4148 D57
+U 1 1 60EC10D2
+P 7900 4600
+AR Path="/609D2250/60EC10D2" Ref="D57"  Part="1" 
+AR Path="/63F303C2/60EC10D2" Ref="D?"  Part="1" 
+F 0 "D57" V 7946 4520 50  0000 R CNN
+F 1 "1N4148" V 7855 4520 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7900 4425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7900 4600 50  0001 C CNN
+	1    7900 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 4200 7600 4200
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EC10CB
+P 7800 4200
+AR Path="/609D2134/60EC10CB" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EC10CB" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EC10CB" Ref="Q86"  Part="1" 
+AR Path="/63F303C2/60EC10CB" Ref="Q?"  Part="1" 
+F 0 "Q86" H 8000 4275 50  0000 L CNN
+F 1 "PN2222" H 8000 4200 50  0000 L CNN
+F 2 "" H 8000 4125 50  0000 L CIN
+F 3 "" H 7800 4200 50  0000 L CNN
+	1    7800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EC1083
+P 6700 4350
+AR Path="/609D2134/60EC1083" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EC1083" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EC1083" Ref="R133"  Part="1" 
+AR Path="/63F303C2/60EC1083" Ref="R?"  Part="1" 
+F 0 "R133" V 6780 4350 50  0000 C CNN
+F 1 "10K" V 6700 4350 50  0000 C CNN
+F 2 "" V 6630 4350 50  0000 C CNN
+F 3 "" H 6700 4350 50  0000 C CNN
+	1    6700 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 5250 6750 5250
+Wire Wire Line
+	7050 4400 7050 4450
+$Comp
+L Diode:1N4148 D54
+U 1 1 60EC1066
+P 7050 4600
+AR Path="/609D2250/60EC1066" Ref="D54"  Part="1" 
+AR Path="/63F303C2/60EC1066" Ref="D?"  Part="1" 
+F 0 "D54" V 7096 4520 50  0000 R CNN
+F 1 "1N4148" V 7005 4520 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7050 4425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7050 4600 50  0001 C CNN
+	1    7050 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 4200 6750 4200
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EC105F
+P 6950 4200
+AR Path="/609D2134/60EC105F" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EC105F" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EC105F" Ref="Q80"  Part="1" 
+AR Path="/63F303C2/60EC105F" Ref="Q?"  Part="1" 
+F 0 "Q80" H 7150 4275 50  0000 L CNN
+F 1 "PN2222" H 7150 4200 50  0000 L CNN
+F 2 "" H 7150 4125 50  0000 L CIN
+F 3 "" H 6950 4200 50  0000 L CNN
+	1    6950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EB8451
+P 5850 4350
+AR Path="/609D2134/60EB8451" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EB8451" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EB8451" Ref="R125"  Part="1" 
+AR Path="/63F303C2/60EB8451" Ref="R?"  Part="1" 
+F 0 "R125" V 5930 4350 50  0000 C CNN
+F 1 "10K" V 5850 4350 50  0000 C CNN
+F 2 "" V 5780 4350 50  0000 C CNN
+F 3 "" H 5850 4350 50  0000 C CNN
+	1    5850 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5850 5250 5900 5250
+Wire Wire Line
+	6200 4400 6200 4450
+$Comp
+L Diode:1N4148 D51
+U 1 1 60EB8434
+P 6200 4600
+AR Path="/609D2250/60EB8434" Ref="D51"  Part="1" 
+AR Path="/63F303C2/60EB8434" Ref="D?"  Part="1" 
+F 0 "D51" V 6246 4520 50  0000 R CNN
+F 1 "1N4148" V 6155 4520 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6200 4425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6200 4600 50  0001 C CNN
+	1    6200 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 4200 5900 4200
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EB842D
+P 6100 4200
+AR Path="/609D2134/60EB842D" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EB842D" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EB842D" Ref="Q74"  Part="1" 
+AR Path="/63F303C2/60EB842D" Ref="Q?"  Part="1" 
+F 0 "Q74" H 6300 4275 50  0000 L CNN
+F 1 "PN2222" H 6300 4200 50  0000 L CNN
+F 2 "" H 6300 4125 50  0000 L CIN
+F 3 "" H 6100 4200 50  0000 L CNN
+	1    6100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EB83E5
+P 5000 4350
+AR Path="/609D2134/60EB83E5" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EB83E5" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EB83E5" Ref="R116"  Part="1" 
+AR Path="/63F303C2/60EB83E5" Ref="R?"  Part="1" 
+F 0 "R116" V 5080 4350 50  0000 C CNN
+F 1 "10K" V 5000 4350 50  0000 C CNN
+F 2 "" V 4930 4350 50  0000 C CNN
+F 3 "" H 5000 4350 50  0000 C CNN
+	1    5000 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 5250 5050 5250
+Wire Wire Line
+	5350 4400 5350 4450
+$Comp
+L Diode:1N4148 D48
+U 1 1 60EB83C8
+P 5350 4600
+AR Path="/609D2250/60EB83C8" Ref="D48"  Part="1" 
+AR Path="/63F303C2/60EB83C8" Ref="D?"  Part="1" 
+F 0 "D48" V 5396 4520 50  0000 R CNN
+F 1 "1N4148" V 5305 4520 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5350 4425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5350 4600 50  0001 C CNN
+	1    5350 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 4200 5050 4200
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EB83C1
+P 5250 4200
+AR Path="/609D2134/60EB83C1" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EB83C1" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EB83C1" Ref="Q67"  Part="1" 
+AR Path="/63F303C2/60EB83C1" Ref="Q?"  Part="1" 
+F 0 "Q67" H 5450 4275 50  0000 L CNN
+F 1 "PN2222" H 5450 4200 50  0000 L CNN
+F 2 "" H 5450 4125 50  0000 L CIN
+F 3 "" H 5250 4200 50  0000 L CNN
+	1    5250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EA43FF
+P 4150 4350
+AR Path="/609D2134/60EA43FF" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EA43FF" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EA43FF" Ref="R107"  Part="1" 
+AR Path="/63F303C2/60EA43FF" Ref="R?"  Part="1" 
+F 0 "R107" V 4230 4350 50  0000 C CNN
+F 1 "10K" V 4150 4350 50  0000 C CNN
+F 2 "" V 4080 4350 50  0000 C CNN
+F 3 "" H 4150 4350 50  0000 C CNN
+	1    4150 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 5250 4200 5250
+Wire Wire Line
+	4500 4400 4500 4450
+$Comp
+L Diode:1N4148 D45
+U 1 1 60EA43E2
+P 4500 4600
+AR Path="/609D2250/60EA43E2" Ref="D45"  Part="1" 
+AR Path="/63F303C2/60EA43E2" Ref="D?"  Part="1" 
+F 0 "D45" V 4546 4520 50  0000 R CNN
+F 1 "1N4148" V 4455 4520 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4500 4425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4500 4600 50  0001 C CNN
+	1    4500 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 4200 4200 4200
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EA43DB
+P 4400 4200
+AR Path="/609D2134/60EA43DB" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EA43DB" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EA43DB" Ref="Q61"  Part="1" 
+AR Path="/63F303C2/60EA43DB" Ref="Q?"  Part="1" 
+F 0 "Q61" H 4600 4275 50  0000 L CNN
+F 1 "PN2222" H 4600 4200 50  0000 L CNN
+F 2 "" H 4600 4125 50  0000 L CIN
+F 3 "" H 4400 4200 50  0000 L CNN
+	1    4400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60E975FE
+P 3300 4350
+AR Path="/609D2134/60E975FE" Ref="R?"  Part="1" 
+AR Path="/609D2215/60E975FE" Ref="R?"  Part="1" 
+AR Path="/609D2250/60E975FE" Ref="R99"  Part="1" 
+AR Path="/63F303C2/60E975FE" Ref="R?"  Part="1" 
+F 0 "R99" V 3380 4350 50  0000 C CNN
+F 1 "10K" V 3300 4350 50  0000 C CNN
+F 2 "" V 3230 4350 50  0000 C CNN
+F 3 "" H 3300 4350 50  0000 C CNN
+	1    3300 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 5250 3350 5250
+Wire Wire Line
+	3650 4400 3650 4450
+$Comp
+L Diode:1N4148 D42
+U 1 1 60E8C638
+P 3650 4600
+AR Path="/609D2250/60E8C638" Ref="D42"  Part="1" 
+AR Path="/63F303C2/60E8C638" Ref="D?"  Part="1" 
+F 0 "D42" V 3696 4520 50  0000 R CNN
+F 1 "1N4148" V 3605 4520 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3650 4425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3650 4600 50  0001 C CNN
+	1    3650 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 4200 3350 4200
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60E8C62B
+P 3550 4200
+AR Path="/609D2134/60E8C62B" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60E8C62B" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60E8C62B" Ref="Q55"  Part="1" 
+AR Path="/63F303C2/60E8C62B" Ref="Q?"  Part="1" 
+F 0 "Q55" H 3750 4275 50  0000 L CNN
+F 1 "PN2222" H 3750 4200 50  0000 L CNN
+F 2 "" H 3750 4125 50  0000 L CIN
+F 3 "" H 3550 4200 50  0000 L CNN
+	1    3550 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2700 3300 2700
+Wire Wire Line
+	3300 2400 3300 2700
+Wire Wire Line
+	4150 2400 4150 2700
+Wire Wire Line
+	4150 2700 5000 2700
+Wire Wire Line
+	5000 2400 5000 2700
+Connection ~ 4150 2700
+Wire Wire Line
+	5000 2700 5850 2700
+Wire Wire Line
+	5850 2400 5850 2700
+Connection ~ 5000 2700
+Wire Wire Line
+	5850 2700 6700 2700
+Wire Wire Line
+	6700 2400 6700 2700
+Connection ~ 5850 2700
+Wire Wire Line
+	6700 2700 7550 2700
+Wire Wire Line
+	7550 2400 7550 2700
+Connection ~ 6700 2700
+Wire Wire Line
+	8400 2400 8400 2700
+Wire Wire Line
+	9250 2400 9250 2700
+Wire Wire Line
+	9250 2700 10100 2700
+Wire Wire Line
+	10100 2400 10100 2700
+Wire Wire Line
+	10100 2700 10950 2700
+Wire Wire Line
+	10950 2400 10950 2700
+Connection ~ 10100 2700
+Wire Wire Line
+	10950 2700 11800 2700
+Wire Wire Line
+	11800 2400 11800 2700
+Connection ~ 10950 2700
+Wire Wire Line
+	11800 2700 12650 2700
+Wire Wire Line
+	12650 2400 12650 2700
+Connection ~ 11800 2700
+Wire Wire Line
+	7550 2700 8400 2700
+Connection ~ 7550 2700
+Wire Wire Line
+	4000 9250 700  9250
+Wire Wire Line
+	700  9250 700  2700
+Wire Wire Line
+	4000 9250 4000 10300
+Connection ~ 3300 2700
+Wire Wire Line
+	9250 2800 9250 2700
+Connection ~ 9250 2700
+Wire Wire Line
+	3650 2650 3650 2950
+Wire Wire Line
+	4500 2650 4500 2950
+Wire Wire Line
+	5350 2650 5350 2950
+Wire Wire Line
+	6200 2650 6200 2950
+Wire Wire Line
+	7050 2650 7050 2950
+Wire Wire Line
+	7900 2650 7900 2950
+Wire Wire Line
+	8750 2650 8750 2950
+Wire Wire Line
+	9600 2650 9600 2950
+Wire Wire Line
+	10450 2650 10450 2950
+Wire Wire Line
+	11300 2650 11300 2950
+Wire Wire Line
+	12150 2650 12150 2950
+Wire Wire Line
+	13000 2650 13000 2950
+Wire Wire Line
+	3300 3450 3300 3750
+Wire Wire Line
+	3300 3750 4150 3750
+Wire Wire Line
+	4150 3750 4150 3450
+Wire Wire Line
+	4150 3750 5000 3750
+Wire Wire Line
+	5000 3750 5000 3450
+Connection ~ 4150 3750
+Wire Wire Line
+	9250 3450 9250 3750
+Wire Wire Line
+	9250 3750 5000 3750
+Connection ~ 5000 3750
+Wire Wire Line
+	10100 3450 10100 3750
+Connection ~ 9250 3750
+Wire Wire Line
+	10950 3450 10950 3750
+Wire Wire Line
+	10950 3750 10100 3750
+Connection ~ 10100 3750
+Wire Wire Line
+	11800 3450 11800 3750
+Wire Wire Line
+	11800 3750 10950 3750
+Connection ~ 10950 3750
+Wire Wire Line
+	5850 3450 5850 3850
+Wire Wire Line
+	5850 3850 6700 3850
+Wire Wire Line
+	6700 3850 6700 3450
+Wire Wire Line
+	6700 3850 7550 3850
+Wire Wire Line
+	7550 3850 7550 3450
+Connection ~ 6700 3850
+Wire Wire Line
+	7550 3850 8400 3850
+Wire Wire Line
+	8400 3850 8400 3450
+Connection ~ 7550 3850
+Wire Wire Line
+	8400 3850 12650 3850
+Wire Wire Line
+	12650 3850 12650 3450
+Connection ~ 8400 3850
+Wire Wire Line
+	3650 3700 3650 4000
+Wire Wire Line
+	4500 3700 4500 4000
+Wire Wire Line
+	5350 3700 5350 4000
+Wire Wire Line
+	6200 3700 6200 4000
+Wire Wire Line
+	7050 3700 7050 4000
+Wire Wire Line
+	7900 3700 7900 4000
+Wire Wire Line
+	8750 3700 8750 4000
+Wire Wire Line
+	10100 3750 9250 3750
+Wire Wire Line
+	9600 3700 9600 4000
+Wire Wire Line
+	10450 3700 10450 4000
+Wire Wire Line
+	11300 3700 11300 4000
+Wire Wire Line
+	12150 3700 12150 4000
+Wire Wire Line
+	13000 3700 13000 4000
+Wire Wire Line
+	2950 9150 800  9150
+Wire Wire Line
+	2950 9150 2950 9800
+Wire Wire Line
+	800  9150 800  2800
+Wire Wire Line
+	900  3750 900  9050
+Wire Wire Line
+	900  9050 6050 9050
+Wire Wire Line
+	6050 9050 6050 10300
+Connection ~ 3300 3750
+Wire Wire Line
+	5000 8950 5000 9800
+Wire Wire Line
+	1000 3850 1000 8950
+Wire Wire Line
+	1000 8950 5000 8950
+Connection ~ 5850 3850
+Wire Wire Line
+	700  2700 3300 2700
+Wire Wire Line
+	800  2800 9250 2800
+Wire Wire Line
+	900  3750 3300 3750
+Wire Wire Line
+	1000 3850 5850 3850
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60E8D3DB
+P 3550 5250
+AR Path="/609D2134/60E8D3DB" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60E8D3DB" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60E8D3DB" Ref="Q56"  Part="1" 
+AR Path="/63F303C2/60E8D3DB" Ref="Q?"  Part="1" 
+F 0 "Q56" H 3750 5325 50  0000 L CNN
+F 1 "PN2222" H 3750 5250 50  0000 L CNN
+F 2 "" H 3750 5175 50  0000 L CIN
+F 3 "" H 3550 5250 50  0000 L CNN
+	1    3550 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60E97A11
+P 3300 5400
+AR Path="/609D2134/60E97A11" Ref="R?"  Part="1" 
+AR Path="/609D2215/60E97A11" Ref="R?"  Part="1" 
+AR Path="/609D2250/60E97A11" Ref="R100"  Part="1" 
+AR Path="/63F303C2/60E97A11" Ref="R?"  Part="1" 
+F 0 "R100" V 3380 5400 50  0000 C CNN
+F 1 "10K" V 3300 5400 50  0000 C CNN
+F 2 "" V 3230 5400 50  0000 C CNN
+F 3 "" H 3300 5400 50  0000 C CNN
+	1    3300 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EA43E9
+P 4400 5250
+AR Path="/609D2134/60EA43E9" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EA43E9" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EA43E9" Ref="Q62"  Part="1" 
+AR Path="/63F303C2/60EA43E9" Ref="Q?"  Part="1" 
+F 0 "Q62" H 4600 5325 50  0000 L CNN
+F 1 "PN2222" H 4600 5250 50  0000 L CNN
+F 2 "" H 4600 5175 50  0000 L CIN
+F 3 "" H 4400 5250 50  0000 L CNN
+	1    4400 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EA4405
+P 4150 5400
+AR Path="/609D2134/60EA4405" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EA4405" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EA4405" Ref="R108"  Part="1" 
+AR Path="/63F303C2/60EA4405" Ref="R?"  Part="1" 
+F 0 "R108" V 4230 5400 50  0000 C CNN
+F 1 "10K" V 4150 5400 50  0000 C CNN
+F 2 "" V 4080 5400 50  0000 C CNN
+F 3 "" H 4150 5400 50  0000 C CNN
+	1    4150 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EB83CF
+P 5250 5250
+AR Path="/609D2134/60EB83CF" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EB83CF" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EB83CF" Ref="Q68"  Part="1" 
+AR Path="/63F303C2/60EB83CF" Ref="Q?"  Part="1" 
+F 0 "Q68" H 5450 5325 50  0000 L CNN
+F 1 "PN2222" H 5450 5250 50  0000 L CNN
+F 2 "" H 5450 5175 50  0000 L CIN
+F 3 "" H 5250 5250 50  0000 L CNN
+	1    5250 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EB83EB
+P 5000 5400
+AR Path="/609D2134/60EB83EB" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EB83EB" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EB83EB" Ref="R117"  Part="1" 
+AR Path="/63F303C2/60EB83EB" Ref="R?"  Part="1" 
+F 0 "R117" V 5080 5400 50  0000 C CNN
+F 1 "10K" V 5000 5400 50  0000 C CNN
+F 2 "" V 4930 5400 50  0000 C CNN
+F 3 "" H 5000 5400 50  0000 C CNN
+	1    5000 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EB843B
+P 6100 5250
+AR Path="/609D2134/60EB843B" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EB843B" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EB843B" Ref="Q75"  Part="1" 
+AR Path="/63F303C2/60EB843B" Ref="Q?"  Part="1" 
+F 0 "Q75" H 6300 5325 50  0000 L CNN
+F 1 "PN2222" H 6300 5250 50  0000 L CNN
+F 2 "" H 6300 5175 50  0000 L CIN
+F 3 "" H 6100 5250 50  0000 L CNN
+	1    6100 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EB8457
+P 5850 5400
+AR Path="/609D2134/60EB8457" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EB8457" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EB8457" Ref="R126"  Part="1" 
+AR Path="/63F303C2/60EB8457" Ref="R?"  Part="1" 
+F 0 "R126" V 5930 5400 50  0000 C CNN
+F 1 "10K" V 5850 5400 50  0000 C CNN
+F 2 "" V 5780 5400 50  0000 C CNN
+F 3 "" H 5850 5400 50  0000 C CNN
+	1    5850 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EC106D
+P 6950 5250
+AR Path="/609D2134/60EC106D" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EC106D" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EC106D" Ref="Q81"  Part="1" 
+AR Path="/63F303C2/60EC106D" Ref="Q?"  Part="1" 
+F 0 "Q81" H 7150 5325 50  0000 L CNN
+F 1 "PN2222" H 7150 5250 50  0000 L CNN
+F 2 "" H 7150 5175 50  0000 L CIN
+F 3 "" H 6950 5250 50  0000 L CNN
+	1    6950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EC1089
+P 6700 5400
+AR Path="/609D2134/60EC1089" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EC1089" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EC1089" Ref="R134"  Part="1" 
+AR Path="/63F303C2/60EC1089" Ref="R?"  Part="1" 
+F 0 "R134" V 6780 5400 50  0000 C CNN
+F 1 "10K" V 6700 5400 50  0000 C CNN
+F 2 "" V 6630 5400 50  0000 C CNN
+F 3 "" H 6700 5400 50  0000 C CNN
+	1    6700 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60EC10D9
+P 7800 5250
+AR Path="/609D2134/60EC10D9" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60EC10D9" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60EC10D9" Ref="Q87"  Part="1" 
+AR Path="/63F303C2/60EC10D9" Ref="Q?"  Part="1" 
+F 0 "Q87" H 8000 5325 50  0000 L CNN
+F 1 "PN2222" H 8000 5250 50  0000 L CNN
+F 2 "" H 8000 5175 50  0000 L CIN
+F 3 "" H 7800 5250 50  0000 L CNN
+	1    7800 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EC10F5
+P 7550 5400
+AR Path="/609D2134/60EC10F5" Ref="R?"  Part="1" 
+AR Path="/609D2215/60EC10F5" Ref="R?"  Part="1" 
+AR Path="/609D2250/60EC10F5" Ref="R143"  Part="1" 
+AR Path="/63F303C2/60EC10F5" Ref="R?"  Part="1" 
+F 0 "R143" V 7630 5400 50  0000 C CNN
+F 1 "10K" V 7550 5400 50  0000 C CNN
+F 2 "" V 7480 5400 50  0000 C CNN
+F 3 "" H 7550 5400 50  0000 C CNN
+	1    7550 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F04FF5
+P 8650 5250
+AR Path="/609D2134/60F04FF5" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F04FF5" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F04FF5" Ref="Q93"  Part="1" 
+AR Path="/63F303C2/60F04FF5" Ref="Q?"  Part="1" 
+F 0 "Q93" H 8850 5325 50  0000 L CNN
+F 1 "PN2222" H 8850 5250 50  0000 L CNN
+F 2 "" H 8850 5175 50  0000 L CIN
+F 3 "" H 8650 5250 50  0000 L CNN
+	1    8650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F05011
+P 8400 5400
+AR Path="/609D2134/60F05011" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F05011" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F05011" Ref="R150"  Part="1" 
+AR Path="/63F303C2/60F05011" Ref="R?"  Part="1" 
+F 0 "R150" V 8480 5400 50  0000 C CNN
+F 1 "10K" V 8400 5400 50  0000 C CNN
+F 2 "" V 8330 5400 50  0000 C CNN
+F 3 "" H 8400 5400 50  0000 C CNN
+	1    8400 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F05061
+P 9500 5250
+AR Path="/609D2134/60F05061" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F05061" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F05061" Ref="Q100"  Part="1" 
+AR Path="/63F303C2/60F05061" Ref="Q?"  Part="1" 
+F 0 "Q100" H 9700 5325 50  0000 L CNN
+F 1 "PN2222" H 9700 5250 50  0000 L CNN
+F 2 "" H 9700 5175 50  0000 L CIN
+F 3 "" H 9500 5250 50  0000 L CNN
+	1    9500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F0507D
+P 9250 5400
+AR Path="/609D2134/60F0507D" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F0507D" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F0507D" Ref="R160"  Part="1" 
+AR Path="/63F303C2/60F0507D" Ref="R?"  Part="1" 
+F 0 "R160" V 9330 5400 50  0000 C CNN
+F 1 "10K" V 9250 5400 50  0000 C CNN
+F 2 "" V 9180 5400 50  0000 C CNN
+F 3 "" H 9250 5400 50  0000 C CNN
+	1    9250 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F050CD
+P 10350 5250
+AR Path="/609D2134/60F050CD" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F050CD" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F050CD" Ref="Q106"  Part="1" 
+AR Path="/63F303C2/60F050CD" Ref="Q?"  Part="1" 
+F 0 "Q106" H 10550 5325 50  0000 L CNN
+F 1 "PN2222" H 10550 5250 50  0000 L CNN
+F 2 "" H 10550 5175 50  0000 L CIN
+F 3 "" H 10350 5250 50  0000 L CNN
+	1    10350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F050E9
+P 10100 5400
+AR Path="/609D2134/60F050E9" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F050E9" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F050E9" Ref="R168"  Part="1" 
+AR Path="/63F303C2/60F050E9" Ref="R?"  Part="1" 
+F 0 "R168" V 10180 5400 50  0000 C CNN
+F 1 "10K" V 10100 5400 50  0000 C CNN
+F 2 "" V 10030 5400 50  0000 C CNN
+F 3 "" H 10100 5400 50  0000 C CNN
+	1    10100 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F05139
+P 11200 5250
+AR Path="/609D2134/60F05139" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F05139" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F05139" Ref="Q111"  Part="1" 
+AR Path="/63F303C2/60F05139" Ref="Q?"  Part="1" 
+F 0 "Q111" H 11400 5325 50  0000 L CNN
+F 1 "PN2222" H 11400 5250 50  0000 L CNN
+F 2 "" H 11400 5175 50  0000 L CIN
+F 3 "" H 11200 5250 50  0000 L CNN
+	1    11200 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F05155
+P 10950 5400
+AR Path="/609D2134/60F05155" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F05155" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F05155" Ref="R174"  Part="1" 
+AR Path="/63F303C2/60F05155" Ref="R?"  Part="1" 
+F 0 "R174" V 11030 5400 50  0000 C CNN
+F 1 "10K" V 10950 5400 50  0000 C CNN
+F 2 "" V 10880 5400 50  0000 C CNN
+F 3 "" H 10950 5400 50  0000 C CNN
+	1    10950 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F051A5
+P 12050 5250
+AR Path="/609D2134/60F051A5" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F051A5" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F051A5" Ref="Q116"  Part="1" 
+AR Path="/63F303C2/60F051A5" Ref="Q?"  Part="1" 
+F 0 "Q116" H 12250 5325 50  0000 L CNN
+F 1 "PN2222" H 12250 5250 50  0000 L CNN
+F 2 "" H 12250 5175 50  0000 L CIN
+F 3 "" H 12050 5250 50  0000 L CNN
+	1    12050 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F051C1
+P 11800 5400
+AR Path="/609D2134/60F051C1" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F051C1" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F051C1" Ref="R180"  Part="1" 
+AR Path="/63F303C2/60F051C1" Ref="R?"  Part="1" 
+F 0 "R180" V 11880 5400 50  0000 C CNN
+F 1 "10K" V 11800 5400 50  0000 C CNN
+F 2 "" V 11730 5400 50  0000 C CNN
+F 3 "" H 11800 5400 50  0000 C CNN
+	1    11800 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 60F05211
+P 12900 5250
+AR Path="/609D2134/60F05211" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F05211" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F05211" Ref="Q121"  Part="1" 
+AR Path="/63F303C2/60F05211" Ref="Q?"  Part="1" 
+F 0 "Q121" H 13100 5325 50  0000 L CNN
+F 1 "PN2222" H 13100 5250 50  0000 L CNN
+F 2 "" H 13100 5175 50  0000 L CIN
+F 3 "" H 12900 5250 50  0000 L CNN
+	1    12900 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F0522D
+P 12650 5400
+AR Path="/609D2134/60F0522D" Ref="R?"  Part="1" 
+AR Path="/609D2215/60F0522D" Ref="R?"  Part="1" 
+AR Path="/609D2250/60F0522D" Ref="R186"  Part="1" 
+AR Path="/63F303C2/60F0522D" Ref="R?"  Part="1" 
+F 0 "R186" V 12730 5400 50  0000 C CNN
+F 1 "10K" V 12650 5400 50  0000 C CNN
+F 2 "" V 12580 5400 50  0000 C CNN
+F 3 "" H 12650 5400 50  0000 C CNN
+	1    12650 5400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 5750 4500 5750
+Wire Wire Line
+	3650 5450 3650 5750
+Wire Wire Line
+	4500 5450 4500 5750
+Wire Wire Line
+	4500 5750 5350 5750
+Wire Wire Line
+	5350 5450 5350 5750
+Connection ~ 4500 5750
+Wire Wire Line
+	5350 5750 6200 5750
+Wire Wire Line
+	6200 5450 6200 5750
+Connection ~ 5350 5750
+Wire Wire Line
+	6200 5750 7050 5750
+Wire Wire Line
+	7050 5450 7050 5750
+Connection ~ 6200 5750
+Wire Wire Line
+	7050 5750 7900 5750
+Wire Wire Line
+	7900 5450 7900 5750
+Connection ~ 7050 5750
+Wire Wire Line
+	7900 5750 8750 5750
+Wire Wire Line
+	8750 5450 8750 5750
+Connection ~ 7900 5750
+Wire Wire Line
+	8750 5750 9600 5750
+Wire Wire Line
+	9600 5450 9600 5750
+Connection ~ 8750 5750
+Wire Wire Line
+	9600 5750 10450 5750
+Wire Wire Line
+	10450 5450 10450 5750
+Connection ~ 9600 5750
+Wire Wire Line
+	10450 5750 11300 5750
+Wire Wire Line
+	11300 5450 11300 5750
+Connection ~ 10450 5750
+Wire Wire Line
+	11300 5750 12150 5750
+Wire Wire Line
+	12150 5450 12150 5750
+Connection ~ 11300 5750
+Wire Wire Line
+	12150 5750 13000 5750
+Connection ~ 12150 5750
+Wire Wire Line
+	13000 5450 13000 5750
+Wire Wire Line
+	4150 4800 5000 4800
+Wire Wire Line
+	5000 4800 5000 4500
+Wire Wire Line
+	7550 4500 7550 4800
+Wire Wire Line
+	7550 4800 5000 4800
+Connection ~ 5000 4800
+Wire Wire Line
+	7550 4800 8400 4800
+Wire Wire Line
+	8400 4800 8400 4500
+Connection ~ 7550 4800
+Wire Wire Line
+	10950 4500 10950 4800
+Wire Wire Line
+	10950 4800 8400 4800
+Connection ~ 8400 4800
+Wire Wire Line
+	10950 4800 11800 4800
+Wire Wire Line
+	11800 4800 11800 4500
+Connection ~ 10950 4800
+Wire Wire Line
+	3300 4500 3300 4900
+Wire Wire Line
+	3300 4900 5850 4900
+Wire Wire Line
+	5850 4500 5850 4900
+Wire Wire Line
+	5850 4900 6700 4900
+Wire Wire Line
+	6700 4900 6700 4500
+Connection ~ 5850 4900
+Wire Wire Line
+	6700 4900 9250 4900
+Wire Wire Line
+	9250 4900 9250 4500
+Connection ~ 6700 4900
+Wire Wire Line
+	9250 4900 10100 4900
+Wire Wire Line
+	10100 4900 10100 4500
+Connection ~ 9250 4900
+Wire Wire Line
+	10100 4900 12650 4900
+Wire Wire Line
+	12650 4900 12650 4500
+Connection ~ 10100 4900
+Wire Wire Line
+	3650 4750 3650 5050
+Wire Wire Line
+	4500 4750 4500 5050
+Wire Wire Line
+	5350 4750 5350 5050
+Wire Wire Line
+	6200 4750 6200 5050
+Wire Wire Line
+	7050 4750 7050 5050
+Wire Wire Line
+	7900 4750 7900 5050
+Wire Wire Line
+	8750 4750 8750 5050
+Wire Wire Line
+	10450 4750 10450 5050
+Wire Wire Line
+	9600 4750 9600 5050
+Wire Wire Line
+	12150 4750 12150 5050
+Wire Wire Line
+	13000 4750 13000 5050
+Wire Wire Line
+	11300 4750 11300 5050
+Wire Wire Line
+	3300 4900 1100 4900
+Wire Wire Line
+	1100 4900 1100 8850
+Wire Wire Line
+	1100 8850 8150 8850
+Wire Wire Line
+	8150 8850 8150 10300
+Wire Wire Line
+	8150 10300 7900 10300
+Connection ~ 3300 4900
+Connection ~ 7900 10300
+Wire Wire Line
+	7900 10300 7900 10250
+Wire Wire Line
+	4150 5000 1200 5000
+Wire Wire Line
+	1200 5000 1200 8700
+Wire Wire Line
+	1200 8700 7100 8700
+Wire Wire Line
+	7100 8700 7100 9800
+Wire Wire Line
+	4150 4500 4150 4800
+Connection ~ 4150 4800
+Wire Wire Line
+	4150 4800 4150 5000
+Connection ~ 7100 9800
+Wire Wire Line
+	13000 5750 13000 9750
+Wire Wire Line
+	13000 9750 11550 9750
+Wire Wire Line
+	11550 9750 11550 10850
+Wire Wire Line
+	11550 10850 9950 10850
+Connection ~ 13000 5750
+Connection ~ 9950 10850
+Wire Wire Line
+	13450 700  13450 9400
+Wire Wire Line
+	9500 9400 9950 9400
+Connection ~ 9950 9400
+Wire Wire Line
+	9950 9400 13450 9400
+Wire Wire Line
+	3300 5550 3300 5850
+Wire Wire Line
+	3300 5850 5000 5850
+Wire Wire Line
+	5000 5850 5000 5550
+Wire Wire Line
+	5000 5850 6700 5850
+Wire Wire Line
+	6700 5850 6700 5550
+Connection ~ 5000 5850
+Wire Wire Line
+	6700 5850 8400 5850
+Wire Wire Line
+	8400 5850 8400 5550
+Connection ~ 6700 5850
+Wire Wire Line
+	8400 5850 10100 5850
+Wire Wire Line
+	10100 5850 10100 5550
+Connection ~ 8400 5850
+Wire Wire Line
+	10100 5850 11800 5850
+Wire Wire Line
+	11800 5850 11800 5550
+Connection ~ 10100 5850
+Wire Wire Line
+	4150 5550 4150 5950
+Wire Wire Line
+	4150 5950 5850 5950
+Wire Wire Line
+	5850 5950 5850 5550
+Wire Wire Line
+	5850 5950 7550 5950
+Wire Wire Line
+	7550 5950 7550 5550
+Connection ~ 5850 5950
+Wire Wire Line
+	7550 5950 9250 5950
+Wire Wire Line
+	9250 5950 9250 5550
+Connection ~ 7550 5950
+Wire Wire Line
+	9250 5950 10950 5950
+Wire Wire Line
+	10950 5950 10950 5550
+Connection ~ 9250 5950
+Wire Wire Line
+	10950 5950 12650 5950
+Wire Wire Line
+	12650 5950 12650 5550
+Connection ~ 10950 5950
+Wire Wire Line
+	3300 5850 1350 5850
+Wire Wire Line
+	1350 5850 1350 8600
+Wire Wire Line
+	1350 8600 9150 8600
+Wire Wire Line
+	9150 8600 9150 9800
+Connection ~ 3300 5850
+Connection ~ 9150 9800
+Wire Wire Line
+	4150 5950 1500 5950
+Wire Wire Line
+	1500 5950 1500 8500
+Wire Wire Line
+	1500 8500 10300 8500
+Wire Wire Line
+	10300 8500 10300 10300
+Wire Wire Line
+	10300 10300 9950 10300
+Connection ~ 4150 5950
+Connection ~ 9950 10300
+Wire Wire Line
+	9950 10300 9950 10250
+Text HLabel 2950 700  0    50   Input ~ 0
+VCC
+Text HLabel 3100 6250 0    50   Output ~ 0
+GND
+Wire Wire Line
+	2950 700  3400 700 
+Connection ~ 3400 700 
+Wire Wire Line
+	3100 6250 3650 6250
+Wire Wire Line
+	3650 6250 3650 5750
+Connection ~ 3650 5750
+Connection ~ 12350 1100
+Connection ~ 9800 1100
+Connection ~ 8100 1100
+Connection ~ 8950 1100
+Connection ~ 7250 1100
+Connection ~ 5550 1100
+Connection ~ 6400 1100
+Connection ~ 4700 1100
+Connection ~ 3850 1100
+Text HLabel 13200 1200 3    50   Output ~ 0
+D12
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 60F051DA
+P 13000 1200
+AR Path="/609D2134/60F051DA" Ref="Q?"  Part="1" 
+AR Path="/609D2215/60F051DA" Ref="Q?"  Part="1" 
+AR Path="/609D2250/60F051DA" Ref="Q122"  Part="1" 
+AR Path="/63F303C2/60F051DA" Ref="Q?"  Part="1" 
+F 0 "Q122" H 13200 1250 50  0000 L CNN
+F 1 "AO3407" H 13200 1150 50  0000 L CNN
+F 2 "" H 13200 1300 50  0000 C CNN
+F 3 "" H 13000 1200 50  0000 C CNN
+	1    13000 1200
+	0    1    -1   0   
+$EndComp
+Connection ~ 13200 1100
+$EndSCHEMATC
